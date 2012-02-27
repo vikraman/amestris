@@ -1,0 +1,5 @@
+if [ -f $1.cpp ] 
+ then
+ echo Making $1
+ g++ -g -o  $1 $1.cpp mesg.c request.cpp
+fi 

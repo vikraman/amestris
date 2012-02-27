@@ -1,0 +1,1477 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+A	guiout.h	/^       unsigned type,A,B,C,D;$/;"	m	struct:smt
+A	request.h	/^          unsigned type,A,B,C,D;$/;"	m	struct:smt
+ACCELFLAG_DRAWHLINELIST	vga.h	473;"	d
+ACCELFLAG_DRAWLINE	vga.h	466;"	d
+ACCELFLAG_FILLBOX	vga.h	463;"	d
+ACCELFLAG_POLYFILLMODE	vga.h	480;"	d
+ACCELFLAG_POLYHLINE	vga.h	479;"	d
+ACCELFLAG_POLYLINE	vga.h	478;"	d
+ACCELFLAG_PUTBITMAP	vga.h	471;"	d
+ACCELFLAG_PUTIMAGE	vga.h	465;"	d
+ACCELFLAG_SCREENCOPY	vga.h	464;"	d
+ACCELFLAG_SCREENCOPYBITMAP	vga.h	472;"	d
+ACCELFLAG_SCREENCOPYMONO	vga.h	477;"	d
+ACCELFLAG_SETBGCOLOR	vga.h	468;"	d
+ACCELFLAG_SETFGCOLOR	vga.h	467;"	d
+ACCELFLAG_SETMODE	vga.h	474;"	d
+ACCELFLAG_SETOFFSET	vga.h	476;"	d
+ACCELFLAG_SETRASTEROP	vga.h	470;"	d
+ACCELFLAG_SETTRANSPARENCY	vga.h	469;"	d
+ACCELFLAG_SYNC	vga.h	475;"	d
+ACCEL_DRAWHLINELIST	vga.h	453;"	d
+ACCEL_DRAWLINE	vga.h	446;"	d
+ACCEL_END	vga.h	501;"	d
+ACCEL_FILLBOX	vga.h	443;"	d
+ACCEL_POLYFILLMODE	vga.h	460;"	d
+ACCEL_POLYHLINE	vga.h	459;"	d
+ACCEL_POLYLINE	vga.h	458;"	d
+ACCEL_PUTBITMAP	vga.h	451;"	d
+ACCEL_PUTIMAGE	vga.h	445;"	d
+ACCEL_SCREENCOPY	vga.h	444;"	d
+ACCEL_SCREENCOPYBITMAP	vga.h	452;"	d
+ACCEL_SCREENCOPYMONO	vga.h	457;"	d
+ACCEL_SETBGCOLOR	vga.h	448;"	d
+ACCEL_SETFGCOLOR	vga.h	447;"	d
+ACCEL_SETMODE	vga.h	454;"	d
+ACCEL_SETOFFSET	vga.h	456;"	d
+ACCEL_SETRASTEROP	vga.h	450;"	d
+ACCEL_SETTRANSPARENCY	vga.h	449;"	d
+ACCEL_START	vga.h	500;"	d
+ACCEL_SYNC	vga.h	455;"	d
+AImaxX	winarea.h	/^   unsigned AreaInvalid,AIminX,AImaxX,AIminY,AImaxY,AreamaxX,AreamaxY;$/;"	m	class:WindowArea
+AImaxY	winarea.h	/^   unsigned AreaInvalid,AIminX,AImaxX,AIminY,AImaxY,AreamaxX,AreamaxY;$/;"	m	class:WindowArea
+AIminX	winarea.h	/^   unsigned AreaInvalid,AIminX,AImaxX,AIminY,AImaxY,AreamaxX,AreamaxY;$/;"	m	class:WindowArea
+AIminY	winarea.h	/^   unsigned AreaInvalid,AIminX,AImaxX,AIminY,AImaxY,AreamaxX,AreamaxY;$/;"	m	class:WindowArea
+ALI	vga.h	337;"	d
+ALLOCATION_ERROR	winobject.h	17;"	d
+ALPHANUMERIC	table.h	7;"	d
+APM	vga.h	340;"	d
+ARK	vga.h	335;"	d
+ATI	vga.h	336;"	d
+ActivateCurrentWindow	winobject.cpp	/^void SuperStructure::ActivateCurrentWindow(void){$/;"	f	class:SuperStructure
+ActiveColor	winobject.h	/^    int ActiveColor, DeactiveColor, InFocusColor, BorderColor, BaseColor;$/;"	m	struct:__anon17::__anon19
+AddWindowObject	guiprocess.cpp	/^short AddWindowObject(Win_Objects *pO)$/;"	f
+Adjust	menu.cpp	/^void MenuBar::Adjust(void){$/;"	f	class:MenuBar
+AlternateValue	keyval.h	/^	 unsigned short AlternateValue ;$/;"	m	struct:__anon5
+Anchor	winobject.h	/^  WinList *CurrentWindow, *Anchor;$/;"	m	class:SuperStructure
+AreaInvalid	winarea.h	/^   unsigned AreaInvalid,AIminX,AImaxX,AIminY,AImaxY,AreamaxX,AreamaxY;$/;"	m	class:WindowArea
+AreamaxX	winarea.h	/^   unsigned AreaInvalid,AIminX,AImaxX,AIminY,AImaxY,AreamaxX,AreamaxY;$/;"	m	class:WindowArea
+AreamaxY	winarea.h	/^   unsigned AreaInvalid,AIminX,AImaxX,AIminY,AImaxY,AreamaxX,AreamaxY;$/;"	m	class:WindowArea
+B	guiout.h	/^       unsigned type,A,B,C,D;$/;"	m	struct:smt
+B	request.h	/^          unsigned type,A,B,C,D;$/;"	m	struct:smt
+BACKGROUND_COLOR	winobject.h	19;"	d
+BANSHEE	vga.h	347;"	d
+BITSPERPIXEL	vgagl.h	76;"	d
+BLITS_IN_BACKGROUND	vga.h	490;"	d
+BLITS_SYNC	vga.h	489;"	d
+BOX_H	box.h	2;"	d
+BYTESPERPIXEL	vgagl.h	69;"	d
+BYTEWIDTH	vgagl.h	70;"	d
+BackgroundColor	winobject.h	/^  unsigned BackgroundColor;$/;"	m	struct:__anon17
+BadRect	pr.h	/^class BadRect{};$/;"	c
+Bar	winobject.cpp	/^ void ScrollableCanvas::Bar(unsigned x1,unsigned y1,unsigned w,unsigned h,unsigned color){$/;"	f	class:ScrollableCanvas
+Bar	winobject.cpp	/^void Canvas::Bar(unsigned x1,unsigned y1,unsigned w,unsigned h,unsigned color)$/;"	f	class:Canvas
+BaseColor	winobject.h	/^    int ActiveColor, DeactiveColor, InFocusColor, BorderColor, BaseColor;$/;"	m	struct:__anon17::__anon19
+BaseColor	winobject.h	/^    int BorderColor, BaseColor, TitleBarColor, TitleFontColor, DeactiveColor;$/;"	m	struct:__anon17::__anon18
+BaseColor	winobject.h	/^  int BaseColor, BorderColor;$/;"	m	class:Win_Objects
+BorderColor	winobject.h	/^    int ActiveColor, DeactiveColor, InFocusColor, BorderColor, BaseColor;$/;"	m	struct:__anon17::__anon19
+BorderColor	winobject.h	/^    int BorderColor, BaseColor, TitleBarColor, TitleFontColor, DeactiveColor;$/;"	m	struct:__anon17::__anon18
+BorderColor	winobject.h	/^  int BaseColor, BorderColor;$/;"	m	class:Win_Objects
+Bottom	winobject.h	/^  public:int Left, Right, Top, Bottom, Width, Height;$/;"	m	class:Rectangle
+BottomCenterMerge	pr.c	/^void PRect::BottomCenterMerge(void){$/;"	f	class:PRect
+BottomOf	pr.c	/^bool Rect:: BottomOf(Rect &r){$/;"	f	class:Rect
+BottomTo	pr.c	/^bool Rect:: BottomTo(Rect &r){$/;"	f	class:Rect
+BreakUp	pr.c	/^void PRect::BreakUp(Rect& r){$/;"	f	class:PRect
+Buffer	table.h	/^  Field *Buffer ;$/;"	m	class:TableEditor
+Button	winobject.cpp	/^Button:: Button(unsigned id,unsigned pid,int x,int y,int w, int h,char *text,int bc,int bdc, int ac , int ic) : Win_Objects(x,y,w,h,id,pid,bc,bdc)$/;"	f	class:Button
+Button	winobject.h	/^  Button;$/;"	m	struct:__anon17	typeref:struct:__anon17::__anon19
+Button	winobject.h	/^class Button:public Win_Objects$/;"	c
+C	guiout.h	/^       unsigned type,A,B,C,D;$/;"	m	struct:smt
+C	request.h	/^          unsigned type,A,B,C,D;$/;"	m	struct:smt
+CANVAS_4	guitest.cpp	7;"	d	file:
+CAPABLE_LINEAR	vga.h	247;"	d
+CFLAGS	Makefile	/^CFLAGS= -DNODEBUG_PROG  -O3 -c -Wno-deprecated  $/;"	m
+CHIPS	vga.h	339;"	d
+CIRRUS	vga.h	327;"	d
+COLORS	vgagl.h	77;"	d
+CONSTANTS_H	constants.h	2;"	d
+CONTEXT_LINEAR	vgagl.h	16;"	d
+CONTEXT_MODEX	vgagl.h	17;"	d
+CONTEXT_PAGED	vgagl.h	15;"	d
+CONTEXT_PLANAR16	vgagl.h	18;"	d
+CONTEXT_VIRTUAL	vgagl.h	14;"	d
+Canvas	winobject.cpp	/^Canvas::Canvas(unsigned id,unsigned pid,int x,int y,int w,int h,int procid,int scrnc,int scrbdc): Win_Objects(x,y,w,h,id,pid,scrnc,scrbdc)$/;"	f	class:Canvas
+Canvas	winobject.h	/^    virtual ~ Canvas ()$/;"	f	class:Canvas
+Canvas	winobject.h	/^  Canvas;$/;"	m	struct:__anon17	typeref:struct:__anon17::__anon21
+Canvas	winobject.h	/^class Canvas:public Win_Objects$/;"	c
+CanvasBorderColor	winobject.h	/^    int TextColor, TextBackgroundColor, CanvasColor, CanvasBorderColor;$/;"	m	struct:__anon17::__anon21
+CanvasColor	winobject.h	/^    int TextColor, TextBackgroundColor, CanvasColor, CanvasBorderColor;$/;"	m	struct:__anon17::__anon21
+CanvasContext	winobject.h	/^  GraphicsContext *CanvasContext;$/;"	m	class:ScrollableCanvas
+CanvasFont	winobject.h	/^    unsigned char *CanvasFont;$/;"	m	struct:__anon17::__anon21
+CanvasFontHeight	winobject.h	/^    int CanvasFontWidth, CanvasFontHeight;$/;"	m	struct:__anon17::__anon21
+CanvasFontWidth	winobject.h	/^    int CanvasFontWidth, CanvasFontHeight;$/;"	m	struct:__anon17::__anon21
+CanvasMap	winobject.h	/^typedef std::map<int,Canvas*> CanvasMap;$/;"	t
+CanvasScreen	winobject.h	/^  void *CanvasScreen;$/;"	m	class:ScrollableCanvas
+Category	event.h	/^               unsigned Category;$/;"	m	struct:__anon1::__anon2::__anon3
+CellDraw	table.cpp	/^void TableEditor::CellDraw(bool highlight)$/;"	f	class:TableEditor
+CellPosition	table.h	/^  int CellPosition, chpos, vpos ;$/;"	m	class:TableEditor
+CenterBottomMerge	pr.c	/^void PRect::CenterBottomMerge(void){$/;"	f	class:PRect
+CenterLeftMerge	pr.c	/^void PRect::CenterLeftMerge(void){$/;"	f	class:PRect
+CenterRightMerge	pr.c	/^void PRect::CenterRightMerge(void){$/;"	f	class:PRect
+CenterTopMerge	pr.c	/^void PRect::CenterTopMerge(void){$/;"	f	class:PRect
+ChangeFlag	winarea.h	/^   unsigned NumberOfAreas,ChangeFlag;$/;"	m	class:WindowArea
+CheckBox	winobject.cpp	/^CheckBox::CheckBox(unsigned id,unsigned pid, int x,int y,int w,int h,char *text,int bc,int fc,unsigned char *fname,short yesno):Win_Objects(x,y,w,h,id,pid,(bc)?bc:SS_SystemSettings.Window.BaseColor,(fc)?fc:SS_SystemSettings.Window.BorderColor)$/;"	f	class:CheckBox
+CheckBox	winobject.h	/^class CheckBox:public Win_Objects$/;"	c
+Checked	winobject.h	/^  protected:short Checked;$/;"	m	class:CheckBox
+ChildId	winobject.h	/^  unsigned ChildId(void) {  return childid; }$/;"	f	class:Window
+Circle	winobject.cpp	/^void Canvas::Circle(unsigned x, unsigned y , unsigned r , unsigned color)$/;"	f	class:Canvas
+Circle	winobject.cpp	/^void ScrollableCanvas::Circle(unsigned x, unsigned y , unsigned r , unsigned color)$/;"	f	class:ScrollableCanvas
+ClipArea	winobject.h	/^  Rectangle ClipArea;$/;"	m	class:Win_Objects
+CloseInput	processinput.cpp	/^boolean CloseInput(void){$/;"	f
+CloseInputEngine	event.c	/^int CloseInputEngine(void)$/;"	f
+CloseOutput	guiout.cpp	/^boolean CloseOutput(void){$/;"	f
+Color	winobject.h	/^      Color,$/;"	m	struct:__anon17::__anon22
+Color	wpr.c	/^void WRect::Color(unsigned c){$/;"	f	class:WRect
+Columns	table.h	/^  int Rows , Columns ;$/;"	m	class:TableEditor
+ComponentList	winobject.h	/^ComponentList;$/;"	t	typeref:struct:tag_componentlist
+Contains	pr.c	/^bool Rect:: Contains(Rect& r){$/;"	f	class:Rect
+Content	table.h	/^  char Content[MAX_FIELD_LENGTH] ;$/;"	m	struct:Field
+Control	event.h	/^               unsigned Control;$/;"	m	struct:__anon1::__anon2::__anon3
+CreateButton	guiprocess.cpp	/^short CreateButton(int Id,int Pid,int x,int y,int w,int h,char *text,$/;"	f
+CreateCanvas	guiprocess.cpp	/^short CreateCanvas(unsigned Id,unsigned Pid,int x,int y,int w,int h,int procid,int scrnc ,int scrbdc )$/;"	f
+CreateCheckBox	guiprocess.cpp	/^short CreateCheckBox(unsigned id,unsigned pid,int x,int y,int w,int h,char *text)$/;"	f
+CreateEditBox	guiprocess.cpp	/^short CreateEditBox(unsigned id,unsigned pid,int x,int y,int w,int h,char *text)$/;"	f
+CreateGOQ	request.cpp	/^bool CreateGOQ(int key)$/;"	f
+CreateLabel	guiprocess.cpp	/^short CreateLabel(unsigned id,unsigned pid,int x,int y,int w,int h,char *text,int bc, int fc, unsigned char *fname )$/;"	f
+CreateMenu	guiprocess.cpp	/^short CreateMenu(unsigned Id,unsigned Pid,int x,int y,int w,int h,char *menufile)$/;"	f
+CreatePasswordBox	guiprocess.cpp	/^short CreatePasswordBox(unsigned id,unsigned pid,int x,int y,int w,int h,char *text)$/;"	f
+CreateRequestQ	request.cpp	/^bool CreateRequestQ(int key)$/;"	f
+CreateScrollableCanvas	guiprocess.cpp	/^short CreateScrollableCanvas(unsigned Id,unsigned Pid,int x,int y,int w,int h,int vw,int vh,int procid,int scrnc ,int scrbdc )$/;"	f
+CreateTableEditor	guiprocess.cpp	/^short CreateTableEditor(unsigned Id,unsigned Pid,int x,int y, char *filename )$/;"	f
+CreateWindow	guiprocess.cpp	/^short CreateWindow(unsigned id,unsigned pid,int x,int y,int w,int h,char * text,unsigned processid,int title,int bc, int bdc,int tbc,int ttc)$/;"	f
+Create_Button	request.cpp	/^short Create_Button(unsigned id,unsigned pid,unsigned short procid ,$/;"	f
+Create_Canvas	request.cpp	/^int  Create_Canvas(unsigned Id,unsigned Pid,unsigned short procid,int x,int y,int w,int h,int scrnc ,int scrbdc)$/;"	f
+Create_CheckBox	request.cpp	/^short Create_CheckBox(unsigned id,unsigned pid,unsigned short procid ,$/;"	f
+Create_EditBox	request.cpp	/^int Create_EditBox(unsigned id,unsigned pid,unsigned short procid,int x,int y,int w,int h)$/;"	f
+Create_Label	request.cpp	/^short  Create_Label(unsigned id,unsigned pid,unsigned short procid ,$/;"	f
+Create_Menu	request.cpp	/^short Create_Menu(unsigned id,unsigned pid,unsigned short procid ,$/;"	f
+Create_PasswordBox	request.cpp	/^int Create_PasswordBox(unsigned id,unsigned pid,unsigned short procid,int x,int y,int w,int h)$/;"	f
+Create_ScrollableCanvas	request.cpp	/^int Create_ScrollableCanvas(unsigned Id,unsigned Pid,unsigned short procid,int x,int y,int w,int h, int vw, int vh,int scrnc =0,int scrbdc =0)$/;"	f
+Create_Table_Editor	request.cpp	/^short Create_Table_Editor(unsigned id , unsigned pid,unsigned short procid,int x, int y, char *rcfilename)$/;"	f
+Create_Window	request.cpp	/^int Create_Window(unsigned id , unsigned pid ,unsigned short procid,int x,int y ,int w, int h,int Title)$/;"	f
+CrossColor	winobject.h	/^    int CrossColor;$/;"	m	struct:__anon17::__anon20
+CrossColor	winobject.h	/^  int CrossColor;$/;"	m	class:SystemButton
+CurrentColumn	table.h	/^  int CurrentRow , CurrentColumn ;$/;"	m	class:TableEditor
+CurrentFontColor	font.c	/^unsigned CurrentFontColor;$/;"	v
+CurrentModeInfo	vgasetup.c	/^vga_modeinfo *CurrentModeInfo;$/;"	v
+CurrentModeNo	vgasetup.c	/^unsigned  CurrentModeNo;$/;"	v
+CurrentPosition	menu.h	/^     unsigned short CurrentPosition,textwidth,spacing,LastPopupId,vPosition,$/;"	m	class:Popup
+CurrentPosition	menu.h	/^    unsigned short CurrentPosition,spacing,$/;"	m	class:MenuBar
+CurrentRow	table.h	/^  int CurrentRow , CurrentColumn ;$/;"	m	class:TableEditor
+CurrentWindow	winobject.h	/^  WinList *CurrentWindow, *Anchor;$/;"	m	class:SuperStructure
+D	guiout.h	/^       unsigned type,A,B,C,D;$/;"	m	struct:smt
+D	request.h	/^          unsigned type,A,B,C,D;$/;"	m	struct:smt
+DATA_READ_ERR	readtbrc.cpp	10;"	d	file:
+DATA_WRITE_SUCCESS	readtbrc.cpp	9;"	d	file:
+DEACTIVE_BACKGROUND	winobject.cpp	13;"	d	file:
+DEBUG_END	debug.h	26;"	d
+DEBUG_END	debug.h	54;"	d
+DEBUG_H	debug.h	2;"	d
+DEBUG_SETUP	debug.h	56;"	d
+DEBUG_START	debug.h	36;"	d
+DEBUG_START	debug.h	53;"	d
+DEBUG_WRITE	debug.h	17;"	d
+DEBUG_WRITE	debug.h	55;"	d
+DISABLE_BITMAP_TRANSPARENCY	vga.h	485;"	d
+DISABLE_TRANSPARENCY_COLOR	vga.h	483;"	d
+DeFreeze_Window	request.cpp	/^void  DeFreeze_Window(unsigned short procid)$/;"	f
+DeactivateCurrentWindow	winobject.cpp	/^void SuperStructure::DeactivateCurrentWindow(void){$/;"	f	class:SuperStructure
+DeactiveColor	winobject.h	/^    int ActiveColor, DeactiveColor, InFocusColor, BorderColor, BaseColor;$/;"	m	struct:__anon17::__anon19
+DeactiveColor	winobject.h	/^    int BorderColor, BaseColor, TitleBarColor, TitleFontColor, DeactiveColor;$/;"	m	struct:__anon17::__anon18
+Decomposed	pr.h	/^          virtual bool Decomposed(void){return decomposed;}$/;"	f	class:PRect
+DefaultFont	winobject.h	/^  unsigned char *DefaultFont;$/;"	m	struct:__anon17
+DefaultFontHeight	winobject.h	/^  int DefaultFontHeight, DefaultFontWidth;$/;"	m	struct:__anon17
+DefaultFontWidth	winobject.h	/^  int DefaultFontHeight, DefaultFontWidth;$/;"	m	struct:__anon17
+DeleteComponent	guiprocess.cpp	/^short DeleteComponent(unsigned Id,unsigned Pid){$/;"	f
+DeleteComponentList	winobject.cpp	/^void SuperStructure::DeleteComponentList(WinList *pWL){$/;"	f	class:SuperStructure
+DeletePopup	menu.cpp	/^void MenuBar::DeletePopup(void){$/;"	f	class:MenuBar
+DeletePopupStack	menu.cpp	/^void MenuBar::DeletePopupStack(void){$/;"	f	class:MenuBar
+DeleteWindow	guiprocess.cpp	/^short DeleteWindow(unsigned Id)$/;"	f
+DeleteWindow	winobject.cpp	/^short SuperStructure::DeleteWindow(unsigned Id,short show,bool notify){$/;"	f	class:SuperStructure
+DeleteWindowComponentList	winobject.cpp	/^short SuperStructure::DeleteWindowComponentList(unsigned Id)$/;"	f	class:SuperStructure
+DeleteWindowObject	winobject.cpp	/^short SuperStructure::DeleteWindowObject(unsigned Id, unsigned Pid)$/;"	f	class:SuperStructure
+DeleteXLine	winarea.cpp	/^short WindowArea::DeleteXLine(unsigned x,unsigned y1,unsigned y2,unsigned ID,unsigned side){$/;"	f	class:WindowArea
+DeleteYLine	winarea.cpp	/^short WindowArea::DeleteYLine(unsigned y){$/;"	f	class:WindowArea
+Delete_Window	request.cpp	/^int Delete_Window(unsigned id, unsigned short procid)$/;"	f
+Delete_Window_Component	request.cpp	/^short Delete_Window_Component(unsigned id,unsigned pid,unsigned short procid)$/;"	f
+Destination_Id	event.h	/^              unsigned Source_Id , Destination_Id, Message ;$/;"	m	struct:__anon1::__anon2::__anon4
+DisableDisplay	winobject.h	/^  virtual void DisableDisplay (void)$/;"	f	class:Win_Objects
+DoesComponentExist	winobject.cpp	/^short SuperStructure::DoesComponentExist(unsigned Id,unsigned Pid){$/;"	f	class:SuperStructure
+DoesWindowExist	winobject.cpp	/^short SuperStructure::DoesWindowExist(unsigned Id)$/;"	f	class:SuperStructure
+DrawArea	winobject.h	/^  Rectangle DrawArea;$/;"	m	class:Canvas
+DrawBar	guiprocess.cpp	/^void DrawBar(unsigned Id,unsigned Pid,int x1,int y1,int x2,int y2,unsigned color,unsigned kid)$/;"	f
+DrawBar	menu.cpp	/^static void DrawBar(int x,int y,int w,int h,char *text,$/;"	f	file:
+DrawBarSc	guiprocess.cpp	/^void DrawBarSc(unsigned Id,unsigned Pid,int x1,int y1,int x2,int y2,unsigned color,unsigned kid)$/;"	f
+DrawCircle	guiprocess.cpp	/^void DrawCircle(unsigned Id,unsigned Pid,int x,int y,int r,unsigned color,unsigned kid)$/;"	f
+DrawCircleSc	guiprocess.cpp	/^void DrawCircleSc(unsigned Id,unsigned Pid,int x,int y,int r,unsigned color,unsigned kid)$/;"	f
+DrawGrids	table.cpp	/^void TableEditor::DrawGrids(void )$/;"	f	class:TableEditor
+DrawLine	guiprocess.cpp	/^void DrawLine(unsigned Id,unsigned Pid,int x1,int y1,int x2,int y2,unsigned color,unsigned kid)$/;"	f
+DrawLineSc	guiprocess.cpp	/^void DrawLineSc(unsigned Id,unsigned Pid,int x1,int y1,int x2,int y2,unsigned color,unsigned kid)$/;"	f
+DrawPixel	guiprocess.cpp	/^void DrawPixel(unsigned Id,unsigned Pid,int x,int y,unsigned color,unsigned kid)$/;"	f
+DrawPixelSc	guiprocess.cpp	/^void DrawPixelSc(unsigned Id,unsigned Pid,int x,int y,unsigned color,unsigned kid)$/;"	f
+DrawTriangle	menu.cpp	/^static void DrawTriangle(int x,int y,int h,int w,bool state,bool color=false){$/;"	f	file:
+Draw_Bar	request.cpp	/^void Draw_Bar(unsigned id,unsigned pid ,unsigned short procid,int tx,int ty,int bx,int by,int color)$/;"	f
+Draw_BarSc	request.cpp	/^void Draw_BarSc(unsigned id,unsigned pid ,unsigned short procid,int tx,int ty,int$/;"	f
+Draw_Circle	request.cpp	/^void Draw_Circle(unsigned id , unsigned pid ,unsigned procid,int x,int y,int r ,int color)$/;"	f
+Draw_CircleSc	request.cpp	/^void Draw_CircleSc(unsigned id , unsigned pid ,unsigned procid,int x,int y,int r ,int color)$/;"	f
+Draw_Line	request.cpp	/^void Draw_Line(unsigned id,unsigned pid ,unsigned short procid,int tx,int ty,int bx,int by,int color)$/;"	f
+Draw_LineSc	request.cpp	/^void Draw_LineSc(unsigned id,unsigned pid ,unsigned short procid,int tx,int ty,int bx,int by,int color)$/;"	f
+Draw_Pixel	request.cpp	/^void Draw_Pixel(unsigned id , unsigned pid ,unsigned procid,int x,int y,int color)$/;"	f
+Draw_PixelSc	request.cpp	/^void Draw_PixelSc(unsigned id , unsigned pid ,unsigned procid,int x,int y,int color)$/;"	f
+Draw_Text	request.cpp	/^void Draw_Text(unsigned id,unsigned pid ,unsigned short procid,int x,int y$/;"	f
+Draw_TextSc	request.cpp	/^void Draw_TextSc(unsigned id,unsigned pid ,unsigned short procid,int x,int y$/;"	f
+EDIT_BOX_MAX_LENGTH	winobject.h	328;"	d
+EGA	vga.h	321;"	d
+EGA	vga.h	330;"	d
+ENABLE_BITMAP_TRANSPARENCY	vga.h	486;"	d
+ENABLE_TRANSPARENCY_COLOR	vga.h	484;"	d
+ESC	printer.c	23;"	d	file:
+ET3000	vga.h	332;"	d
+ET4000	vga.h	326;"	d
+ET6000	vga.h	342;"	d
+EVENT_H	event.h	2;"	d
+EXT_INFO_AVAILABLE	vga.h	249;"	d
+EditBox	winobject.cpp	/^EditBox::EditBox(unsigned id,unsigned pid,int x,int y,int w,int h,char *text)$/;"	f	class:EditBox
+EditBox	winobject.h	/^class EditBox:public Win_Objects$/;"	c
+EditMode	table.h	/^  bool EditMode ;$/;"	m	class:TableEditor
+EnableDisplay	winobject.cpp	/^void Window::EnableDisplay(void) {$/;"	f	class:Window
+EnableDisplay	winobject.h	/^  virtual void EnableDisplay (void)$/;"	f	class:Win_Objects
+EnableWindowDisplay	winobject.cpp	/^void SuperStructure::EnableWindowDisplay(unsigned Id){$/;"	f	class:SuperStructure
+End	winarea.h	/^   struct YHeader Start,End,*t,*t1;$/;"	m	class:WindowArea	typeref:struct:WindowArea::
+End	winobject.h	/^  public:WinList * Start, *End;$/;"	m	class:SuperStructure
+EqualTo	pr.c	/^bool Rect::EqualTo(Rect &r){$/;"	f	class:Rect
+Event	event.h	/^       }Event;  $/;"	m	struct:__anon1	typeref:union:__anon1::__anon2
+EventCallNo	event.c	/^unsigned long EventDelay,EventCallNo;$/;"	v
+EventDelay	event.c	/^unsigned long EventDelay,EventCallNo;$/;"	v
+EventTV	event.c	/^struct timeval EventTV;$/;"	v	typeref:struct:timeval
+FALSE	constants.h	5;"	d
+FEEDBACK_PROC_ID	guiprocess.cpp	19;"	d	file:
+FILE_ERROR	readresource.cpp	11;"	d	file:
+FILE_OPEN_ERR	readtbrc.cpp	6;"	d	file:
+FOCUS_EVENT	message.h	8;"	d
+FONT_BDF_H	font_bdf.h	2;"	d
+FONT_COMPRESSED	vgagl.h	148;"	d
+FONT_EXPANDED	vgagl.h	147;"	d
+FONT_H	font.h	2;"	d
+FORMAT_ERROR	readresource.cpp	10;"	d	file:
+Field	table.h	/^struct Field $/;"	s
+FieldDescriptor	table.h	/^ struct FieldDescriptor$/;"	s
+FocusColor	winobject.h	/^  int FocusColor, aBaseColor;$/;"	m	class:Button
+Font	winobject.h	/^    unsigned char *Font;$/;"	m	struct:__anon17::__anon22
+Font	winobject.h	/^  unsigned char *Font;$/;"	m	class:Canvas
+FontColor	winobject.h	/^  int FontColor;$/;"	m	class:CheckBox
+FontColor	winobject.h	/^  int FontColor;$/;"	m	class:Label
+FontHeight	winobject.h	/^      HighlightColor, HighlightTextColor, Separator, FontHeight, FontWidth;$/;"	m	struct:__anon17::__anon22
+FontHeight	winobject.h	/^  int TextColor, TextBackgroundColor,FontWidth,FontHeight;$/;"	m	class:Canvas
+FontName	winobject.h	/^  unsigned char *FontName;$/;"	m	class:CheckBox
+FontName	winobject.h	/^  unsigned char *FontName;$/;"	m	class:Label
+FontWidth	winobject.h	/^      HighlightColor, HighlightTextColor, Separator, FontHeight, FontWidth;$/;"	m	struct:__anon17::__anon22
+FontWidth	winobject.h	/^  int TextColor, TextBackgroundColor,FontWidth,FontHeight;$/;"	m	class:Canvas
+FreezeWindow	guisetup.c	/^unsigned ProgRun,FreezeWindow;$/;"	v
+G1024x768x16	vga.h	54;"	d
+G1024x768x16M	vga.h	48;"	d
+G1024x768x16M32	vga.h	62;"	d
+G1024x768x256	vga.h	33;"	d
+G1024x768x32K	vga.h	46;"	d
+G1024x768x64K	vga.h	47;"	d
+G1072x600x16M	vga.h	145;"	d
+G1072x600x16M32	vga.h	146;"	d
+G1072x600x256	vga.h	142;"	d
+G1072x600x32K	vga.h	143;"	d
+G1072x600x64K	vga.h	144;"	d
+G1152x864x16	vga.h	66;"	d
+G1152x864x16M	vga.h	70;"	d
+G1152x864x16M32	vga.h	71;"	d
+G1152x864x256	vga.h	67;"	d
+G1152x864x32K	vga.h	68;"	d
+G1152x864x64K	vga.h	69;"	d
+G1280x1024x16	vga.h	55;"	d
+G1280x1024x16M	vga.h	51;"	d
+G1280x1024x16M32	vga.h	63;"	d
+G1280x1024x256	vga.h	35;"	d
+G1280x1024x32K	vga.h	49;"	d
+G1280x1024x64K	vga.h	50;"	d
+G1280x720x16M	vga.h	151;"	d
+G1280x720x16M32	vga.h	152;"	d
+G1280x720x256	vga.h	148;"	d
+G1280x720x32K	vga.h	149;"	d
+G1280x720x64K	vga.h	150;"	d
+G1360x768x16M	vga.h	157;"	d
+G1360x768x16M32	vga.h	158;"	d
+G1360x768x256	vga.h	154;"	d
+G1360x768x32K	vga.h	155;"	d
+G1360x768x64K	vga.h	156;"	d
+G1600x1200x16	vga.h	73;"	d
+G1600x1200x16M	vga.h	77;"	d
+G1600x1200x16M32	vga.h	78;"	d
+G1600x1200x256	vga.h	74;"	d
+G1600x1200x32K	vga.h	75;"	d
+G1600x1200x64K	vga.h	76;"	d
+G1800x1012x16M	vga.h	163;"	d
+G1800x1012x16M32	vga.h	164;"	d
+G1800x1012x256	vga.h	160;"	d
+G1800x1012x32K	vga.h	161;"	d
+G1800x1012x64K	vga.h	162;"	d
+G1920x1080x16M	vga.h	169;"	d
+G1920x1080x16M32	vga.h	170;"	d
+G1920x1080x256	vga.h	166;"	d
+G1920x1080x32K	vga.h	167;"	d
+G1920x1080x64K	vga.h	168;"	d
+G1920x1440x16M	vga.h	107;"	d
+G1920x1440x16M32	vga.h	108;"	d
+G1920x1440x256	vga.h	104;"	d
+G1920x1440x32K	vga.h	105;"	d
+G1920x1440x64K	vga.h	106;"	d
+G2048x1152x16M	vga.h	175;"	d
+G2048x1152x16M32	vga.h	176;"	d
+G2048x1152x256	vga.h	172;"	d
+G2048x1152x32K	vga.h	173;"	d
+G2048x1152x64K	vga.h	174;"	d
+G2048x1536x16M	vga.h	181;"	d
+G2048x1536x16M32	vga.h	182;"	d
+G2048x1536x256	vga.h	178;"	d
+G2048x1536x32K	vga.h	179;"	d
+G2048x1536x64K	vga.h	180;"	d
+G320x200x16	vga.h	21;"	d
+G320x200x16M	vga.h	39;"	d
+G320x200x16M32	vga.h	59;"	d
+G320x200x256	vga.h	25;"	d
+G320x200x32K	vga.h	37;"	d
+G320x200x64K	vga.h	38;"	d
+G320x240x16M	vga.h	83;"	d
+G320x240x16M32	vga.h	84;"	d
+G320x240x256	vga.h	26;"	d
+G320x240x256V	vga.h	80;"	d
+G320x240x32K	vga.h	81;"	d
+G320x240x64K	vga.h	82;"	d
+G320x400x16M	vga.h	115;"	d
+G320x400x16M32	vga.h	116;"	d
+G320x400x256	vga.h	27;"	d
+G320x400x256V	vga.h	112;"	d
+G320x400x32K	vga.h	113;"	d
+G320x400x64K	vga.h	114;"	d
+G320x480x16M	vga.h	127;"	d
+G320x480x16M32	vga.h	128;"	d
+G320x480x256	vga.h	124;"	d
+G320x480x32K	vga.h	125;"	d
+G320x480x64K	vga.h	126;"	d
+G360x480x256	vga.h	28;"	d
+G400x300x16M	vga.h	89;"	d
+G400x300x16M32	vga.h	90;"	d
+G400x300x256	vga.h	86;"	d
+G400x300x32K	vga.h	87;"	d
+G400x300x64K	vga.h	88;"	d
+G400x600x16M	vga.h	193;"	d
+G400x600x16M32	vga.h	194;"	d
+G400x600x256	vga.h	190;"	d
+G400x600x32K	vga.h	191;"	d
+G400x600x64K	vga.h	192;"	d
+G512x384x16M	vga.h	95;"	d
+G512x384x16M32	vga.h	96;"	d
+G512x384x256	vga.h	92;"	d
+G512x384x32K	vga.h	93;"	d
+G512x384x64K	vga.h	94;"	d
+G512x480x16M	vga.h	187;"	d
+G512x480x16M32	vga.h	188;"	d
+G512x480x256	vga.h	184;"	d
+G512x480x32K	vga.h	185;"	d
+G512x480x64K	vga.h	186;"	d
+G640x200x16	vga.h	22;"	d
+G640x350x16	vga.h	23;"	d
+G640x400x16M	vga.h	121;"	d
+G640x400x16M32	vga.h	122;"	d
+G640x400x256	vga.h	118;"	d
+G640x400x32K	vga.h	119;"	d
+G640x400x64K	vga.h	120;"	d
+G640x480x16	vga.h	24;"	d
+G640x480x16M	vga.h	42;"	d
+G640x480x16M32	vga.h	60;"	d
+G640x480x2	vga.h	29;"	d
+G640x480x256	vga.h	31;"	d
+G640x480x32K	vga.h	40;"	d
+G640x480x64K	vga.h	41;"	d
+G720x348x2	vga.h	57;"	d
+G720x540x16M	vga.h	133;"	d
+G720x540x16M32	vga.h	134;"	d
+G720x540x256	vga.h	130;"	d
+G720x540x32K	vga.h	131;"	d
+G720x540x64K	vga.h	132;"	d
+G800x600x16	vga.h	53;"	d
+G800x600x16M	vga.h	45;"	d
+G800x600x16M32	vga.h	61;"	d
+G800x600x256	vga.h	32;"	d
+G800x600x32K	vga.h	43;"	d
+G800x600x64K	vga.h	44;"	d
+G848x480x16M	vga.h	139;"	d
+G848x480x16M32	vga.h	140;"	d
+G848x480x256	vga.h	136;"	d
+G848x480x32K	vga.h	137;"	d
+G848x480x64K	vga.h	138;"	d
+G960x720x16M	vga.h	101;"	d
+G960x720x16M32	vga.h	102;"	d
+G960x720x256	vga.h	98;"	d
+G960x720x32K	vga.h	99;"	d
+G960x720x64K	vga.h	100;"	d
+GCLIP	guiprocess.cpp	21;"	d	file:
+GCLIP	menu.cpp	7;"	d	file:
+GCLIP	winarea.cpp	4;"	d	file:
+GCLIP	winobject.cpp	12;"	d	file:
+GE	winobject.cpp	/^unsigned GE ;$/;"	v
+GLASTMODE	vga.h	197;"	d
+GMChannel	request.cpp	/^int GMChannel;$/;"	v
+GUILogIn	request.cpp	/^short GUILogIn(void){$/;"	f
+GUIOUT_H	guiout.h	5;"	d
+GUIOutput	request.cpp	/^bool GUIOutput(int Channel,unsigned procid,struct smt *g){$/;"	f
+GUIPROCESS_H	guiprocess.h	10;"	d
+GUISETUP_H	guisetup.h	2;"	d
+GUI_SCREEN_MODE	guisetup.h	15;"	d
+GVGA6400	vga.h	334;"	d
+GainFocus	menu.cpp	/^short MenuBar::GainFocus(void){$/;"	f	class:MenuBar
+GainFocus	table.h	/^   short GainFocus(void){$/;"	f	class:TableEditor
+GainFocus	winobject.cpp	/^short Button::GainFocus(void){$/;"	f	class:Button
+GainFocus	winobject.cpp	/^short EditBox::GainFocus(void){$/;"	f	class:EditBox
+GainFocus	winobject.cpp	/^short Win_Objects::GainFocus(void)$/;"	f	class:Win_Objects
+GainFocus	winobject.h	/^  virtual short GainFocus (void)$/;"	f	class:Canvas
+GainFocus	winobject.h	/^  virtual short GainFocus (void)$/;"	f	class:Label
+GetAreasIn	winarea.cpp	/^int WindowArea::GetAreasIn(unsigned left,unsigned top,$/;"	f	class:WindowArea
+GetBoundaries	winarea.cpp	/^int WindowArea::GetBoundaries(Win_Objects &W,unsigned *buffer){$/;"	f	class:WindowArea
+GetCheckBoxStatus	guiprocess.cpp	/^short GetCheckBoxStatus(unsigned id,unsigned pid,short *pS){$/;"	f
+GetCombinedInput	processinput.cpp	/^boolean GetCombinedInput(SystemInput *pSi,KeyboardInput *pki,int *picode)$/;"	f
+GetDimensions	winobject.cpp	/^void Rectangle::GetDimensions(int *w,int *h)$/;"	f	class:Rectangle
+GetDimensions	winobject.cpp	/^void SuperStructure::GetDimensions(unsigned Id,Rectangle &R){$/;"	f	class:SuperStructure
+GetFocussedId	winobject.cpp	/^unsigned SuperStructure::GetFocussedId(unsigned Pid){$/;"	f	class:SuperStructure
+GetGUIOutput	request.cpp	/^bool GetGUIOutput(int Channel,unsigned procid,struct smt *g){$/;"	f
+GetId	winobject.h	/^  unsigned GetId (void)$/;"	f	class:Win_Objects
+GetLabelText	winobject.cpp	/^void Label::GetLabelText(char *text)$/;"	f	class:Label
+GetMessage	guisetup.c	/^void GetMessage(Message *pM)$/;"	f
+GetNextComponentInfo	guiprocess.cpp	/^short GetNextComponentInfo(unsigned id,unsigned pid,$/;"	f
+GetOrigin	winobject.cpp	/^void Rectangle::GetOrigin(int *x,int *y)$/;"	f	class:Rectangle
+GetParentId	winobject.h	/^  unsigned GetParentId (void)$/;"	f	class:Win_Objects
+GetPartitionCount	winarea.h	/^	   unsigned GetPartitionCount(void){$/;"	f	class:WindowArea
+GetProcessId	winobject.h	/^  unsigned GetProcessId (void)$/;"	f	class:Window
+GetRegionCount	winarea.cpp	/^int WindowArea::GetRegionCount(Win_Objects &W){$/;"	f	class:WindowArea
+GetStatus	winobject.cpp	/^short CheckBox::GetStatus(void)$/;"	f	class:CheckBox
+GetText	winobject.cpp	/^void EditBox::GetText(char *t)$/;"	f	class:EditBox
+GetType	winobject.h	/^  unsigned GetType (void)$/;"	f	class:Win_Objects
+GetWindowObject	winobject.cpp	/^Win_Objects * SuperStructure:: GetWindowObject(unsigned Id, unsigned Pid)$/;"	f	class:SuperStructure
+GetWindowObjectFrameInfo	winobject.cpp	/^short SuperStructure::GetWindowObjectFrameInfo(unsigned Id,unsigned Pid,int *px,int *py,int *pw,int *ph)$/;"	f	class:SuperStructure
+Get_CheckBox_Status	request.cpp	/^short Get_CheckBox_Status(unsigned id,unsigned pid,unsigned short procid,short *pStatus)$/;"	f
+Get_Component_State	request.cpp	/^short Get_Component_State(unsigned id,unsigned pid,$/;"	f
+Get_Focussed_Component	request.cpp	/^unsigned Get_Focussed_Component(unsigned pid,unsigned short procid){$/;"	f
+Get_Next_Component_Info	request.cpp	/^short Get_Next_Component_Info(unsigned id,unsigned pid,$/;"	f
+Get_Text	request.cpp	/^extern int Get_Text(unsigned id,unsigned pid,unsigned short procid,$/;"	f
+GraphicsContext	vgagl.h	/^    } GraphicsContext;$/;"	t	typeref:struct:__anon13
+GuiM	guiout.cpp	/^struct smt GuiM;$/;"	v	typeref:struct:smt
+GuiRequest	guisetup.c	/^SystemInput GuiRequest;$/;"	v
+GuiScreenContext	vgasetup.c	/^GraphicsContext *GuiScreenContext ;$/;"	v
+HAVE_BITBLIT	vga.h	236;"	d
+HAVE_BLITWAIT	vga.h	240;"	d
+HAVE_EXT_SET	vga.h	253;"	d
+HAVE_FILLBLIT	vga.h	237;"	d
+HAVE_HLINELISTBLIT	vga.h	239;"	d
+HAVE_IMAGEBLIT	vga.h	238;"	d
+HAVE_RWPAGE	vga.h	243;"	d
+HEIGHT	vgagl.h	72;"	d
+HP_CarriageReturn	printer.c	/^static const unsigned char HP_CarriageReturn[]={10};$/;"	v	file:
+HP_EndRG	printer.c	/^static const unsigned char HP_EndRG[]={ESC,'*','r','C'};$/;"	v	file:
+HP_FormFeed	printer.c	/^static const unsigned char HP_FormFeed[]={'\\f'};$/;"	v	file:
+HP_LineFeed	printer.c	/^static const unsigned char HP_LineFeed[]={13};$/;"	v	file:
+HP_Orientation	printer.c	/^static const unsigned char HP_Orientation[]={ESC,38,108,49,79};$/;"	v	file:
+HP_PosCursor	printer.c	/^static const unsigned char HP_PosCursor[]={ESC,'*','p','4','0','0','x','9','0','Y'};$/;"	v	file:
+HP_RGPresentation	printer.c	/^static const unsigned char HP_RGPresentation[]={ESC,'*','r','0','F'};$/;"	v	file:
+HP_RGResolution	printer.c	/^static const unsigned char HP_RGResolution[]={ESC,'*','t','7','5','R'};$/;"	v	file:
+HP_ResetPrinter	printer.c	/^static const unsigned char HP_ResetPrinter[]={ESC,69};$/;"	v	file:
+HP_StartRG	printer.c	/^static const unsigned char HP_StartRG[]={ESC,'*','r','1','A'};$/;"	v	file:
+HP_TransferRGData	printer.c	/^static const unsigned char HP_TransferRGData[]={ESC,'*','b','8','0','W'};$/;"	v	file:
+HP_dump_infile	printer.c	/^void HP_dump_infile()$/;"	f
+HP_network_dump_screen	printer.c	/^void HP_network_dump_screen()$/;"	f
+Height	winobject.h	/^  public:int Left, Right, Top, Bottom, Width, Height;$/;"	m	class:Rectangle
+Hide	winobject.cpp	/^void Window::Hide(void)$/;"	f	class:Window
+HideWindow	winobject.cpp	/^void SuperStructure::HideWindow(unsigned Id){$/;"	f	class:SuperStructure
+Hide_Window	request.cpp	/^void Hide_Window(unsigned id, unsigned short procid)$/;"	f
+HighlightColor	winobject.h	/^      HighlightColor, HighlightTextColor, Separator, FontHeight, FontWidth;$/;"	m	struct:__anon17::__anon22
+HighlightTextColor	winobject.h	/^      HighlightColor, HighlightTextColor, Separator, FontHeight, FontWidth;$/;"	m	struct:__anon17::__anon22
+I740	vga.h	349;"	d
+ID	winobject.h	/^  unsigned ID, PID;$/;"	m	class:Win_Objects
+INPUT_IDLE	event.h	8;"	d
+INPUT_IDLE	message.h	4;"	d
+INPUT_QUEUE_ID	requestlist.h	4;"	d
+IN_COLOR1	box.c	2;"	d	file:
+IN_COLOR2	box.c	3;"	d	file:
+IS_DYNAMICMODE	vga.h	246;"	d
+IS_INTERLACED	vga.h	244;"	d
+IS_LINEAR	vga.h	248;"	d
+IS_MODEX	vga.h	245;"	d
+Id	winobject.h	/^  unsigned Level, Id, LastChildId;$/;"	m	struct:tag_WinList
+InFocusColor	winobject.h	/^    int ActiveColor, DeactiveColor, InFocusColor, BorderColor, BaseColor;$/;"	m	struct:__anon17::__anon19
+InFocusColor	winobject.h	/^  int InFocusColor;$/;"	m	struct:__anon17
+InTitleBar	winobject.cpp	/^short Window::InTitleBar(int x,int y)$/;"	f	class:Window
+Index	menu.h	/^       int Index,  \/\/ starting index in the menu-item array;$/;"	m	struct:__anon7
+Infocus	winobject.h	/^  short active, Infocus, display;$/;"	m	class:Win_Objects
+InitGraphicsSys	vgasetup.c	/^int InitGraphicsSys(unsigned modeno)$/;"	f
+InitGuiSys	guisetup.c	/^int InitGuiSys(unsigned modeno)$/;"	f
+InitInput	processinput.cpp	/^boolean InitInput(int ikey,int rkey){  $/;"	f
+InitInputEngine	event.c	/^int InitInputEngine(void)$/;"	f
+InitOutput	guiout.cpp	/^boolean InitOutput(int key){$/;"	f
+InitSS_Keyboard	keyboardproc.c	/^void InitSS_Keyboard(void)$/;"	f
+InitSystemSettings	guiprocess.cpp	/^void InitSystemSettings(void)$/;"	f
+InsertPopup	menu.cpp	/^void MenuBar::InsertPopup(void){$/;"	f	class:MenuBar
+InsertWindow	winobject.cpp	/^short SuperStructure::InsertWindow(Window *pW){$/;"	f	class:SuperStructure
+InsertWindowObject	winobject.cpp	/^short SuperStructure::InsertWindowObject(Win_Objects *pO)$/;"	f	class:SuperStructure
+InsertXLine	winarea.cpp	/^short WindowArea::InsertXLine(unsigned x,unsigned y1,unsigned y2,unsigned side){$/;"	f	class:WindowArea
+InsertYLine	winarea.cpp	/^short WindowArea::InsertYLine(unsigned y){$/;"	f	class:WindowArea
+Intersection	pr.c	/^Rect* Rect::Intersection(Rect& r){$/;"	f	class:Rect
+IsChanged	winarea.h	/^	   short IsChanged(void){$/;"	f	class:WindowArea
+IsDisplayable	winobject.h	/^  short IsDisplayable (void)$/;"	f	class:Window
+IsInside	winobject.cpp	/^short Rectangle::IsInside(int x, int y )$/;"	f	class:Rectangle
+IsWindowCurrent	winobject.cpp	/^short SuperStructure:: IsWindowCurrent(unsigned Id){$/;"	f	class:SuperStructure
+Isactive	winobject.h	/^  virtual short Isactive (void)$/;"	f	class:Win_Objects
+KEYBOARDPROC_H	keyboardproc.h	2;"	d
+KEYBOARD_DELAY	keyboardproc.c	4;"	d	file:
+KEYBOARD_EVENT	event.h	9;"	d
+KEYBOARD_EVENT	message.h	5;"	d
+KEYMAP_H	keymap.h	2;"	d
+KEY_ALT	processinput.h	13;"	d
+KEY_ARROWDOWN	processinput.h	39;"	d
+KEY_ARROWLEFT	processinput.h	40;"	d
+KEY_ARROWRIGHT	processinput.h	41;"	d
+KEY_ARROWUP	processinput.h	38;"	d
+KEY_ASCII	processinput.h	12;"	d
+KEY_BACKSPACE	processinput.h	16;"	d
+KEY_DELETE	processinput.h	35;"	d
+KEY_END	processinput.h	36;"	d
+KEY_ENTER	processinput.h	17;"	d
+KEY_ESCAPE	processinput.h	18;"	d
+KEY_ESCAPE2	processinput.h	19;"	d
+KEY_EXTENDED	processinput.h	11;"	d
+KEY_EXTENDEDNO	keymap.h	4;"	d
+KEY_F1	processinput.h	20;"	d
+KEY_F10	processinput.h	29;"	d
+KEY_F11	processinput.h	30;"	d
+KEY_F12	processinput.h	31;"	d
+KEY_F2	processinput.h	21;"	d
+KEY_F3	processinput.h	22;"	d
+KEY_F4	processinput.h	23;"	d
+KEY_F5	processinput.h	24;"	d
+KEY_F6	processinput.h	25;"	d
+KEY_F7	processinput.h	26;"	d
+KEY_F8	processinput.h	27;"	d
+KEY_F9	processinput.h	28;"	d
+KEY_HOME	processinput.h	33;"	d
+KEY_INSERT	processinput.h	32;"	d
+KEY_MAXLENGTH	keymap.h	5;"	d
+KEY_PAGEDOWN	processinput.h	37;"	d
+KEY_PAGEUP	processinput.h	34;"	d
+KEY_SEQTERM	keymap.h	6;"	d
+KEY_TAB	processinput.h	15;"	d
+KEY_VAL_H	keyval.h	2;"	d
+Key	menu.h	/^    int Key;    \/\/ offset to key$/;"	m	struct:__anon6
+Keyboard	event.h	/^          }Keyboard;$/;"	m	union:__anon1::__anon2	typeref:struct:__anon1::__anon2::__anon3
+KeyboardHandler	keyboardproc.c	/^void KeyboardHandler(int scancode,int pressed)$/;"	f
+KeyboardInput	processinput.h	/^     }KeyboardInput;$/;"	t	typeref:struct:__anon9
+LEFT	winarea.h	11;"	d
+LOCKED	table.h	10;"	d
+Label	menu.h	/^    char *Label;$/;"	m	struct:__anon6
+Label	winobject.cpp	/^Label::Label(unsigned id,unsigned pid, int x,int y,int w,int h,char *text,int bc,int fc,unsigned char *fname):Win_Objects(x,y,w,h,id,pid,bc,bc)$/;"	f	class:Label
+Label	winobject.h	/^  char Label[80];$/;"	m	class:Button
+Label	winobject.h	/^class Label:public Win_Objects$/;"	c
+LabelFont	winobject.h	/^    unsigned char *LabelFont;$/;"	m	struct:__anon17::__anon19
+LabelFontHeight	winobject.h	/^    int LabelFontWidth, LabelFontHeight;$/;"	m	struct:__anon17::__anon19
+LabelFontWidth	winobject.h	/^    int LabelFontWidth, LabelFontHeight;$/;"	m	struct:__anon17::__anon19
+LastChildId	winobject.h	/^  unsigned Level, Id, LastChildId;$/;"	m	struct:tag_WinList
+LastId	winobject.h	/^  unsigned LastId;$/;"	m	class:SuperStructure
+LastPopupId	menu.h	/^    		LastPopupId,PopupPosition,PopupX,PopupY;$/;"	m	class:MenuBar
+LastPopupId	menu.h	/^     unsigned short CurrentPosition,textwidth,spacing,LastPopupId,vPosition,$/;"	m	class:Popup
+Left	winobject.h	/^  public:int Left, Right, Top, Bottom, Width, Height;$/;"	m	class:Rectangle
+LeftCenterMerge	pr.c	/^void PRect::LeftCenterMerge(void){$/;"	f	class:PRect
+LeftOf	pr.c	/^bool Rect:: LeftOf(Rect& r){$/;"	f	class:Rect
+LeftTo	pr.c	/^bool Rect:: LeftTo(Rect& r){$/;"	f	class:Rect
+Length	winobject.h	/^  protected:short Length, Position, dl, dr, nc, dp, dy;$/;"	m	class:EditBox
+Level	winobject.h	/^  unsigned Level, Id, LastChildId;$/;"	m	struct:tag_WinList
+Line	winobject.cpp	/^void Canvas::Line(unsigned x1,unsigned y1,unsigned x2,unsigned y2,unsigned color)$/;"	f	class:Canvas
+Line	winobject.cpp	/^void ScrollableCanvas::Line(unsigned x1,unsigned y1,unsigned x2,unsigned y2,unsigned color)$/;"	f	class:ScrollableCanvas
+Link	winarea.cpp	/^void WindowArea::Link(Win_Objects &W){$/;"	f	class:WindowArea
+LoseFocus	menu.cpp	/^short MenuBar::LoseFocus(void){$/;"	f	class:MenuBar
+LoseFocus	table.h	/^   short LoseFocus(void){$/;"	f	class:TableEditor
+LoseFocus	winobject.cpp	/^short Button::LoseFocus(void){$/;"	f	class:Button
+LoseFocus	winobject.cpp	/^short CheckBox::LoseFocus(void)$/;"	f	class:CheckBox
+LoseFocus	winobject.cpp	/^short EditBox::LoseFocus(void){$/;"	f	class:EditBox
+LoseFocus	winobject.cpp	/^short Win_Objects::LoseFocus(void)$/;"	f	class:Win_Objects
+LoseFocus	winobject.h	/^  virtual short LoseFocus (void)$/;"	f	class:Canvas
+LoseFocus	winobject.h	/^  virtual short LoseFocus (void)$/;"	f	class:Label
+MACH32	vga.h	333;"	d
+MACH64	vga.h	338;"	d
+MAXMESGDATA	mesg.h	14;"	d
+MAX_FIELD_LENGTH	table.h	9;"	d
+MAX_FONT_NO	requestlist.h	67;"	d
+MAX_WINDOWS	winarea.h	10;"	d
+MD_TERMINATION1	readresource.cpp	8;"	d	file:
+MD_TERMINATION2	readresource.cpp	9;"	d	file:
+MENU_4	guitest.cpp	8;"	d	file:
+MENU_H	menu.h	2;"	d
+MESGHDRSIZE	mesg.h	15;"	d
+MESG_H	mesg.h	3;"	d
+MESSAGE	event.c	/^Message MESSAGE;$/;"	v
+MESSAGE_H	message.h	2;"	d
+MODEFLAGS	vgagl.h	75;"	d
+MODEFLAG_24BPP_REVERSED	vgagl.h	30;"	d
+MODEFLAG_32BPP_SHIFT8	vgagl.h	29;"	d
+MODEFLAG_FLIPPAGE_BANKALIGNED	vgagl.h	24;"	d
+MODEFLAG_PAGEFLIPPING_CAPABLE	vgagl.h	20;"	d
+MODEFLAG_PAGEFLIPPING_ENABLED	vgagl.h	22;"	d
+MODEFLAG_TRIPLEBUFFERING_CAPABLE	vgagl.h	21;"	d
+MODEFLAG_TRIPLEBUFFERING_ENABLED	vgagl.h	23;"	d
+MODETYPE	vgagl.h	74;"	d
+MON1024_43I	vga.h	355;"	d
+MON1024_60	vga.h	357;"	d
+MON1024_70	vga.h	358;"	d
+MON1024_72	vga.h	359;"	d
+MON640_60	vga.h	353;"	d
+MON800_56	vga.h	354;"	d
+MON800_60	vga.h	356;"	d
+MX	vga.h	344;"	d
+Menu	winobject.h	/^  Menu;$/;"	m	struct:__anon17	typeref:struct:__anon17::__anon22
+MenuActiveFlag	winobject.h	/^  int MenuActiveFlag;$/;"	m	struct:__anon17
+MenuBar	menu.cpp	/^MenuBar::MenuBar(int id,int pid,int x,int y,int w,int h,MenuHeader *pmh,$/;"	f	class:MenuBar
+MenuBar	menu.h	/^ class MenuBar:public Win_Objects$/;"	c
+MenuHeader	menu.h	/^       }MenuHeader ;$/;"	t	typeref:struct:__anon7
+MenuItem	menu.h	/^    }MenuItem;$/;"	t	typeref:struct:__anon6
+Merge	pr.c	/^void PRect::Merge(Rect &r){$/;"	f	class:PRect
+Mergeable	pr.h	/^		  virtual bool Mergeable(void){ return (decomposed)?false:true;} $/;"	f	class:PRect
+Mesg	mesg.h	/^} Mesg;$/;"	t	typeref:struct:__anon8
+Message	event.h	/^              unsigned Source_Id , Destination_Id, Message ;$/;"	m	struct:__anon1::__anon2::__anon4
+Message	event.h	/^ }Message;$/;"	t	typeref:struct:__anon1
+MoveBy	menu.cpp	/^void MenuBar::MoveBy(int dx,int dy){$/;"	f	class:MenuBar
+MoveBy	winobject.cpp	/^ void Win_Objects::MoveBy(int dx,int dy){$/;"	f	class:Win_Objects
+MoveBy	winobject.cpp	/^void Canvas::MoveBy(int dx,int dy){$/;"	f	class:Canvas
+MoveBy	winobject.cpp	/^void CheckBox::MoveBy(int dx,int dy){$/;"	f	class:CheckBox
+MoveBy	winobject.cpp	/^void Rectangle::MoveBy(int dx,int dy)$/;"	f	class:Rectangle
+MoveBy	winobject.cpp	/^void Window::MoveBy(int dx,int dy)$/;"	f	class:Window
+MoveBy	wpr.c	/^void WRect::MoveBy(unsigned dx,unsigned dy){$/;"	f	class:WRect
+MoveChildObjectsBy	winobject.cpp	/^void SuperStructure::MoveChildObjectsBy(unsigned Id,int dx,int dy)$/;"	f	class:SuperStructure
+MoveTo	winobject.cpp	/^ void Win_Objects::MoveTo(int x,int y){$/;"	f	class:Win_Objects
+MoveTo	winobject.cpp	/^void Canvas::MoveTo(int x,int y){$/;"	f	class:Canvas
+MoveTo	winobject.cpp	/^void Rectangle::MoveTo(int x, int y)$/;"	f	class:Rectangle
+NEOMAGIC	vga.h	350;"	d
+NO_ALLOCATION_ERROR	winobject.h	18;"	d
+NULL_EVENT	event.h	12;"	d
+NULL_EVENT	message.h	9;"	d
+NUMERIC	table.h	8;"	d
+NV3	vga.h	341;"	d
+Name	keyval.h	/^	 char Name[3][30];$/;"	m	struct:__anon5
+NewRect	pr.h	/^		   virtual PRect * NewRect(int left,int top,$/;"	f	class:PRect
+NewRect	wpr.h	/^   virtual PRect * NewRect(int left,int top,int right,int bottom,bool vf){$/;"	f	class:WRect
+Next	menu.h	/^     Popup *Next;$/;"	m	class:Popup
+Next	winarea.h	/^		  struct YHeader *Next,*Prev;$/;"	m	struct:YHeader	typeref:struct:YHeader::YHeader
+Next	winobject.h	/^  struct tag_WinList *Next, *Prev;$/;"	m	struct:tag_WinList	typeref:struct:tag_WinList::tag_WinList
+Next	winobject.h	/^  struct tag_componentlist *Next, *Prev;$/;"	m	struct:tag_componentlist	typeref:struct:tag_componentlist::tag_componentlist
+Number	menu.h	/^           Number, \/\/ number of items in the pulldown ;$/;"	m	struct:__anon7
+NumberOfAreas	winarea.h	/^   unsigned NumberOfAreas,ChangeFlag;$/;"	m	class:WindowArea
+NumberOfInvalidAreas	winarea.h	/^	   int NumberOfInvalidAreas(void){ \/\/ House keeping routines$/;"	f	class:WindowArea
+NumberOfXLines	winarea.h	/^		  unsigned Y,NumberOfXLines,References;$/;"	m	struct:YHeader
+OAK	vga.h	329;"	d
+OBJ_BUTTON_ID	constants.h	14;"	d
+OBJ_BUTTON_ID	request.h	14;"	d
+OBJ_BUTTON_ID	winobject.h	28;"	d
+OBJ_CANVAS_ID	constants.h	12;"	d
+OBJ_CANVAS_ID	request.h	12;"	d
+OBJ_CANVAS_ID	winobject.h	26;"	d
+OBJ_CHECKBOX_ID	constants.h	9;"	d
+OBJ_CHECKBOX_ID	request.h	9;"	d
+OBJ_CHECKBOX_ID	winobject.h	23;"	d
+OBJ_EDITBOX_ID	constants.h	11;"	d
+OBJ_EDITBOX_ID	request.h	11;"	d
+OBJ_EDITBOX_ID	winobject.h	25;"	d
+OBJ_LABEL_ID	constants.h	10;"	d
+OBJ_LABEL_ID	request.h	10;"	d
+OBJ_LABEL_ID	winobject.h	24;"	d
+OBJ_MENUBAR_ID	menu.h	5;"	d
+OBJ_SCANVAS_ID	constants.h	13;"	d
+OBJ_SCANVAS_ID	request.h	13;"	d
+OBJ_SCANVAS_ID	winobject.h	27;"	d
+OBJ_TABLE_ID	constants.h	15;"	d
+OBJ_TABLE_ID	request.h	15;"	d
+OBJ_TABLE_ID	winobject.h	29;"	d
+OBJ_WINDOW_ID	constants.h	8;"	d
+OBJ_WINDOW_ID	request.h	8;"	d
+OBJ_WINDOW_ID	winobject.h	22;"	d
+OUTPUT_ID	requestlist.h	6;"	d
+OUT_COLOR1	box.c	4;"	d	file:
+ObjectID	winarea.h	/^		unsigned ObjectID;$/;"	m	struct:XInfo
+Otherparams	processinput.h	/^      unsigned Otherparams[25][8];$/;"	m	struct:__anon10
+Otherparams	request.h	/^    unsigned int Otherparams[25][8];$/;"	m	struct:__anon11
+PARADISE	vga.h	345;"	d
+PERMS	mesg.h	12;"	d
+PID	winobject.h	/^  unsigned ID, PID;$/;"	m	class:Win_Objects
+PRECT_MAX_PARTITIONS	pr.h	27;"	d
+PROCESSINPUT_H	processinput.h	5;"	d
+PR_H	pr.h	2;"	d
+PRect	pr.c	/^PRect::PRect(int l,int t,int r,int b,bool vf):Rect(l,t,r,b){$/;"	f	class:PRect
+PRect	pr.h	/^class PRect: public Rect {$/;"	c
+PS_Cols	printer.c	/^static const unsigned char PS_Cols[]="640\\n";$/;"	v	file:
+PS_Depth	printer.c	/^static const unsigned char PS_Depth[]="1\\n";$/;"	v	file:
+PS_End	printer.c	/^static const unsigned char PS_End[]={'>','}','\\n'};$/;"	v	file:
+PS_Image	printer.c	/^static const unsigned char PS_Image[]="image\\n";$/;"	v	file:
+PS_Init	printer.c	/^static const unsigned char PS_Init[]={'%','!','\\n'};$/;"	v	file:
+PS_Matrix	printer.c	/^static const unsigned char PS_Matrix[]="[640 0 0 480 0 0]\\n";$/;"	v	file:
+PS_Restore	printer.c	/^static const unsigned char PS_Restore[]="grestore\\n";$/;"	v	file:
+PS_Rows	printer.c	/^static const unsigned char PS_Rows[]="480\\n";$/;"	v	file:
+PS_Save	printer.c	/^static const unsigned char PS_Save[]="gsave\\n";$/;"	v	file:
+PS_Scale	printer.c	/^static const unsigned char PS_Scale[]="500 700 scale\\n";$/;"	v	file:
+PS_Showpage	printer.c	/^static const unsigned char PS_Showpage[]="showpage\\n";$/;"	v	file:
+PS_Start	printer.c	/^static const unsigned char PS_Start[]={'{','<'};$/;"	v	file:
+PS_Translate	printer.c	/^static const unsigned char PS_Translate[]="45 60 translate\\n";$/;"	v	file:
+Palette	vgagl.h	/^    } Palette;$/;"	t	typeref:struct:__anon14
+Parameters	processinput.h	/^      unsigned Parameters[9] ;$/;"	m	struct:__anon10
+Parameters	request.h	/^    unsigned int Parameters[10] ;$/;"	m	struct:__anon11
+ParentId	winobject.h	/^  unsigned ParentId(void) {  return parentid; }$/;"	f	class:Window
+PasswordBox	winobject.h	/^  PasswordBox (unsigned id, unsigned pid, int x, int y, int w, int h,$/;"	f	class:PasswordBox
+PasswordBox	winobject.h	/^class PasswordBox:public EditBox$/;"	c
+Pixel	winobject.cpp	/^void Canvas::Pixel(unsigned x,unsigned y,unsigned color)$/;"	f	class:Canvas
+Pixel	winobject.cpp	/^void ScrollableCanvas::Pixel(unsigned x,unsigned y,unsigned color)$/;"	f	class:ScrollableCanvas
+Popup	menu.cpp	/^Popup::Popup(unsigned id,unsigned pid,$/;"	f	class:Popup
+Popup	menu.h	/^class Popup:public Win_Objects$/;"	c
+PopupActive	menu.h	/^    bool PopupActive;$/;"	m	class:MenuBar
+PopupPosition	menu.h	/^    		LastPopupId,PopupPosition,PopupX,PopupY;$/;"	m	class:MenuBar
+PopupStatus	menu.h	/^    bool PopupStatus;$/;"	m	class:MenuBar
+PopupX	menu.h	/^    		LastPopupId,PopupPosition,PopupX,PopupY;$/;"	m	class:MenuBar
+PopupY	menu.h	/^    		LastPopupId,PopupPosition,PopupX,PopupY;$/;"	m	class:MenuBar
+Position	menu.h	/^    unsigned short *Position;$/;"	m	class:MenuBar
+Position	winobject.h	/^  protected:short Length, Position, dl, dr, nc, dp, dy;$/;"	m	class:EditBox
+Prev	winarea.h	/^		  struct YHeader *Next,*Prev;$/;"	m	struct:YHeader	typeref:struct:YHeader::
+Prev	winobject.h	/^  struct tag_WinList *Next, *Prev;$/;"	m	struct:tag_WinList	typeref:struct:tag_WinList::
+Prev	winobject.h	/^  struct tag_componentlist *Next, *Prev;$/;"	m	struct:tag_componentlist	typeref:struct:tag_componentlist::
+Print_Window	request.cpp	/^void  Print_Window(unsigned short procid,int mode)$/;"	f
+ProcessKeyboard	guiprocess.cpp	/^void ProcessKeyboard(Message *WinM)$/;"	f
+ProcessMenuBarMsg	menu.cpp	/^void MenuBar::ProcessMenuBarMsg(Message *WinM){$/;"	f	class:MenuBar
+ProcessPopupResponse	menu.cpp	/^bool MenuBar::ProcessPopupResponse(Message *WinM){$/;"	f	class:MenuBar
+Process_Id	processinput.h	/^      unsigned short Process_Id ;$/;"	m	struct:__anon10
+Process_Id	request.h	/^    unsigned short Process_Id ;$/;"	m	struct:__anon11
+ProgRun	guisetup.c	/^unsigned ProgRun,FreezeWindow;$/;"	v
+RAGE	vga.h	346;"	d
+RC_ERR	readtbrc.cpp	7;"	d	file:
+RC_READ_SUCCESS	readtbrc.cpp	8;"	d	file:
+READ_ERROR	readresource.cpp	12;"	d	file:
+REQUESTLIST_H	requestlist.h	2;"	d
+REQUEST_EVENT	event.h	11;"	d
+REQUEST_EVENT	message.h	7;"	d
+REQUEST_QUEUE_ID	requestlist.h	5;"	d
+RGB_MISORDERED	vga.h	250;"	d
+RIGHT	winarea.h	12;"	d
+ROP_AND	vga.h	495;"	d
+ROP_COPY	vga.h	493;"	d
+ROP_INVERT	vga.h	497;"	d
+ROP_OR	vga.h	494;"	d
+ROP_XOR	vga.h	496;"	d
+RQ_CANVAS_SHIFT_DOWN	requestlist.h	29;"	d
+RQ_CANVAS_SHIFT_LEFT	requestlist.h	30;"	d
+RQ_CANVAS_SHIFT_RIGHT	requestlist.h	31;"	d
+RQ_CANVAS_SHIFT_UP	requestlist.h	28;"	d
+RQ_CHECKBOX_STATUS	requestlist.h	36;"	d
+RQ_CREATE_BUTTON	requestlist.h	12;"	d
+RQ_CREATE_CANVAS	requestlist.h	11;"	d
+RQ_CREATE_CANVAS_SC	requestlist.h	16;"	d
+RQ_CREATE_CHECKBOX	requestlist.h	13;"	d
+RQ_CREATE_EDITBOX	requestlist.h	10;"	d
+RQ_CREATE_LABEL	requestlist.h	14;"	d
+RQ_CREATE_MENU	requestlist.h	15;"	d
+RQ_CREATE_PASSWORDBOX	requestlist.h	18;"	d
+RQ_CREATE_TABLE	requestlist.h	17;"	d
+RQ_CREATE_WINDOW	requestlist.h	9;"	d
+RQ_DEFREEZE_WINDOW	requestlist.h	57;"	d
+RQ_DESTROY_COMPONENT	requestlist.h	49;"	d
+RQ_DESTROY_WINDOW	requestlist.h	40;"	d
+RQ_DRAW_BAR	requestlist.h	20;"	d
+RQ_DRAW_BARS	requestlist.h	21;"	d
+RQ_DRAW_CIRCLE	requestlist.h	27;"	d
+RQ_DRAW_LINE	requestlist.h	24;"	d
+RQ_DRAW_PIXEL	requestlist.h	25;"	d
+RQ_DRAW_TEXT	requestlist.h	26;"	d
+RQ_GET_COMPONENT_STATE	requestlist.h	63;"	d
+RQ_GET_EDIT_TEXT	requestlist.h	43;"	d
+RQ_GET_FOCUS	requestlist.h	52;"	d
+RQ_GET_NEXT_COMPONENT_INFO	requestlist.h	54;"	d
+RQ_GET_TEXT	requestlist.h	39;"	d
+RQ_GUI_SHUTDOWN	requestlist.h	65;"	d
+RQ_HIDE_WINDOW	requestlist.h	42;"	d
+RQ_MENUBUTTONS	requestlist.h	22;"	d
+RQ_PRINT_WINDOW	requestlist.h	59;"	d
+RQ_SAVE_TABLE	requestlist.h	34;"	d
+RQ_SET_CANVAS_KEY_STATE	requestlist.h	32;"	d
+RQ_SET_CANVAS_TEXT_COLORS	requestlist.h	44;"	d
+RQ_SET_CHECKBOX_STATUS	requestlist.h	37;"	d
+RQ_SET_COLOR	requestlist.h	55;"	d
+RQ_SET_FOCUS	requestlist.h	51;"	d
+RQ_SET_MENU_ITEM_STATE	requestlist.h	47;"	d
+RQ_SET_MENU_PAGE_STATE	requestlist.h	48;"	d
+RQ_SET_SCANVAS_TEXT_COLORS	requestlist.h	45;"	d
+RQ_SET_TEXT	requestlist.h	38;"	d
+RQ_SHOW_WINDOW	requestlist.h	41;"	d
+RQ_STATE	requestlist.h	8;"	d
+RQ_WRITE_TEXT	requestlist.h	61;"	d
+RQ_WRITE_TEXTS	requestlist.h	23;"	d
+Read	event.h	/^    short Type,Read;$/;"	m	struct:__anon1
+ReadMenu	readresource.cpp	/^ short ReadMenu(char filename[],$/;"	f
+Read_Data_File	readtbrc.cpp	/^ int Read_Data_File(int row, int col , Field *buffer,FieldDescriptor *pf, char *filename)$/;"	f
+Read_Table_Resource	readtbrc.cpp	/^int Read_Table_Resource(int *Row, int *Col, FieldDescriptor **fd, char *loadfilename,char *rcfilename)$/;"	f
+ReceiveText	guiprocess.cpp	/^void ReceiveText(int channel ,unsigned procid , char *buffer, int length) $/;"	f
+Rect	pr.c	/^Rect::Rect(int l,int t,int r,int b) {$/;"	f	class:Rect
+Rect	pr.h	/^class Rect{$/;"	c
+Rectangle	winobject.cpp	/^Rectangle::Rectangle()$/;"	f	class:Rectangle
+Rectangle	winobject.cpp	/^Rectangle::Rectangle(int l,int t, int w, int h )$/;"	f	class:Rectangle
+Rectangle	winobject.h	/^class Rectangle$/;"	c
+RedrawFlag	menu.h	/^    bool RedrawFlag;$/;"	m	class:MenuBar
+RedrawFlag	winobject.h	/^  int RedrawFlag;$/;"	m	struct:__anon17
+References	winarea.h	/^		  unsigned Y,NumberOfXLines,References;$/;"	m	struct:YHeader
+References	winarea.h	/^		unsigned References;$/;"	m	struct:XInfo
+ReportPosition	menu.cpp	/^void Popup::ReportPosition(bool state){$/;"	f	class:Popup
+RequestChannel	request.cpp	/^int RequestChannel ;$/;"	v
+RequestQueue	processinput.cpp	/^int \/*MsgQueue,*\/ RequestQueue;$/;"	v
+Request_Id	processinput.h	/^      unsigned char Request_Id ;$/;"	m	struct:__anon10
+Request_Id	request.h	/^    unsigned char Request_Id ;$/;"	m	struct:__anon11
+ResetChangeFlag	winarea.h	/^	   void ResetChangeFlag(void){$/;"	f	class:WindowArea
+Reset_iRC	winobject.cpp	/^void Reset_iRC(void){$/;"	f
+Right	winobject.h	/^  public:int Left, Right, Top, Bottom, Width, Height;$/;"	m	class:Rectangle
+RightCenterMerge	pr.c	/^void PRect::RightCenterMerge(void){$/;"	f	class:PRect
+RightOf	pr.c	/^bool Rect:: RightOf(Rect &r){$/;"	f	class:Rect
+RightTo	pr.c	/^bool Rect:: RightTo(Rect &r){$/;"	f	class:Rect
+Rows	table.h	/^  int Rows , Columns ;$/;"	m	class:TableEditor
+Run_Window_System	guiprocess.cpp	/^void Run_Window_System(void) $/;"	f
+S3	vga.h	331;"	d
+SCREEN_BYTESPERPIXEL	vgasetup.h	11;"	d
+SCREEN_MAXCOLORS	vgasetup.h	10;"	d
+SCREEN_MAXX	vgasetup.h	8;"	d
+SCREEN_MAXY	vgasetup.h	9;"	d
+SCREEN_VIDEOMEMORY	vgasetup.h	12;"	d
+SIS	vga.h	348;"	d
+SS_ALTKEY	keyboardproc.h	11;"	d
+SS_BACKSPACE	keyboardproc.h	26;"	d
+SS_COMPONENT_USED	message.h	20;"	d
+SS_CONTROL	keyboardproc.h	6;"	d
+SS_CTRLKEY	keyboardproc.h	12;"	d
+SS_CURSOR	keyboardproc.h	8;"	d
+SS_CURSORBLOCK	keyboardproc.h	7;"	d
+SS_CURSORDOWN	keyboardproc.h	18;"	d
+SS_CURSORLEFT	keyboardproc.h	17;"	d
+SS_CURSORRIGHT	keyboardproc.h	16;"	d
+SS_CURSORUP	keyboardproc.h	19;"	d
+SS_DELETE	keyboardproc.h	15;"	d
+SS_DESTROYWINDOW	message.h	15;"	d
+SS_EDITBOX_DONE	message.h	21;"	d
+SS_END	keyboardproc.h	21;"	d
+SS_ENTER	keyboardproc.h	20;"	d
+SS_ESCAPE	keyboardproc.h	23;"	d
+SS_F1	keyboardproc.h	27;"	d
+SS_F10	keyboardproc.h	36;"	d
+SS_F11	keyboardproc.h	37;"	d
+SS_F12	keyboardproc.h	38;"	d
+SS_F2	keyboardproc.h	28;"	d
+SS_F3	keyboardproc.h	29;"	d
+SS_F4	keyboardproc.h	30;"	d
+SS_F5	keyboardproc.h	31;"	d
+SS_F6	keyboardproc.h	32;"	d
+SS_F7	keyboardproc.h	33;"	d
+SS_F8	keyboardproc.h	34;"	d
+SS_F9	keyboardproc.h	35;"	d
+SS_FAILURE	message.h	27;"	d
+SS_FEEDBACK	message.h	28;"	d
+SS_GAINFOCUS	message.h	22;"	d
+SS_HOME	keyboardproc.h	22;"	d
+SS_INPUT	message.h	29;"	d
+SS_INSERT	keyboardproc.h	13;"	d
+SS_INSERT_ALT	keyboardproc.h	14;"	d
+SS_KEYBOARDSTATEKEY	keyboardproc.h	10;"	d
+SS_KEYPAD	keyboardproc.h	5;"	d
+SS_KeyList	keyval.h	/^ keyval SS_KeyList[130]= {$/;"	v
+SS_KeyboardState	keyboardproc.c	/^KeyboardState SS_KeyboardState;$/;"	v
+SS_LOSEFOCUS	message.h	23;"	d
+SS_NORMAL	keyboardproc.h	4;"	d
+SS_PAGEDOWN	keyboardproc.h	25;"	d
+SS_PAGEUP	keyboardproc.h	24;"	d
+SS_SHOWWINDOW	message.h	19;"	d
+SS_SHUT_DOWN	message.h	30;"	d
+SS_SUCCESS	message.h	26;"	d
+SS_SYSTEM_BUSY	message.h	25;"	d
+SS_SYSTEM_EVENT	message.h	10;"	d
+SS_SystemSettings	winobject.cpp	/^SystemSettings SS_SystemSettings;$/;"	v
+SS_TAB	keyboardproc.h	39;"	d
+SS_UNKNOWN	keyboardproc.h	9;"	d
+SS_UPDATEWINDOW	message.h	16;"	d
+SS_WINDOWACTIVATE	message.h	18;"	d
+SS_WINDOWDEACTIVATE	message.h	17;"	d
+SS_WINDOWDESTROY	message.h	12;"	d
+SS_WINDOWSHOW	message.h	14;"	d
+SS_WINDOWUPDATE	message.h	13;"	d
+SS_WindowStructure	winobject.cpp	/^SuperStructure SS_WindowStructure;$/;"	v
+SUPERVISOR_LEVEL	guiprocess.h	14;"	d
+SYSTEM_EVENT	event.h	10;"	d
+SYSTEM_EVENT	message.h	6;"	d
+SaveTableEditor	guiprocess.cpp	/^short SaveTableEditor(unsigned Id,unsigned Pid,char *filename) $/;"	f
+Save_Data_File	readtbrc.cpp	/^int Save_Data_File(int row, int col, Field *buffer,char *filename)$/;"	f
+Save_Table_Editor	request.cpp	/^short Save_Table_Editor(unsigned id, unsigned pid,unsigned short procid,$/;"	f
+Scancode	keyval.h	/^	 unsigned short Scancode;$/;"	m	struct:__anon5
+ScreenHeight	winobject.h	/^  int ScreenX, ScreenY, ScreenWidth, ScreenHeight;$/;"	m	class:Window
+ScreenUpdate	winobject.cpp	/^boolean ScreenUpdate;$/;"	v
+ScreenWidth	winobject.h	/^  int ScreenX, ScreenY, ScreenWidth, ScreenHeight;$/;"	m	class:Window
+ScreenX	winobject.h	/^  int ScreenX, ScreenY, ScreenWidth, ScreenHeight;$/;"	m	class:Window
+ScreenY	winobject.h	/^  int ScreenX, ScreenY, ScreenWidth, ScreenHeight;$/;"	m	class:Window
+ScrollableCanvas	winobject.h	/^   public:ScrollableCanvas (unsigned id, unsigned pid, int x, int y, int w,$/;"	f	class:ScrollableCanvas
+ScrollableCanvas	winobject.h	/^class ScrollableCanvas:public Win_Objects$/;"	c
+ScrollableCanvasMap	winobject.h	/^typedef std::map<int ,ScrollableCanvas*> ScrollableCanvasMap;$/;"	t
+SendGUIOutput	guiout.cpp	/^boolean SendGUIOutput(unsigned type ,unsigned processid,unsigned A,unsigned B,unsigned C,unsigned D)$/;"	f
+SendGUIRequest	request.cpp	/^void SendGUIRequest(int Channel , SystemInput sr )$/;"	f
+SendMessage	guiprocess.cpp	/^void SendMessage(unsigned Id,Message *WinM)$/;"	f
+SendMessageToCurrentWindow	guiprocess.cpp	/^void SendMessageToCurrentWindow(Message *WinM)$/;"	f
+SendText	request.cpp	/^void SendText(int Channel , unsigned procid , char *buffer , int length )$/;"	f
+Separator	winobject.h	/^      HighlightColor, HighlightTextColor, Separator, FontHeight, FontWidth;$/;"	m	struct:__anon17::__anon22
+Seq	processinput.h	/^      unsigned short Seq; $/;"	m	struct:__anon10
+ServeGUIRequest	guiprocess.cpp	/^void ServeGUIRequest(void){$/;"	f
+SetActive	winobject.cpp	/^void Window::SetActive(void){$/;"	f	class:Window
+SetActive	winobject.h	/^  virtual void SetActive (void)$/;"	f	class:Win_Objects
+SetAreaInvalid	winarea.cpp	/^int WindowArea::SetAreaInvalid(Win_Objects &W){$/;"	f	class:WindowArea
+SetAreaValid	winarea.cpp	/^int WindowArea::SetAreaValid(Win_Objects &W){$/;"	f	class:WindowArea
+SetBar	menu.cpp	/^void MenuBar::SetBar(bool state){$/;"	f	class:MenuBar
+SetBar	menu.cpp	/^void Popup::SetBar(bool state){$/;"	f	class:Popup
+SetChildId	winobject.h	/^  void SetChildId(unsigned cid){ $/;"	f	class:Window
+SetChildObjectActive	winobject.cpp	/^void SuperStructure::SetChildObjectActive(unsigned Id,unsigned Pid,bool state)$/;"	f	class:SuperStructure
+SetClipArea	winobject.cpp	/^void SetClipArea(Rectangle R){$/;"	f
+SetColors	winobject.cpp	/^void Button::SetColors(int fc,int bc,int afcolor,int icfcolor)$/;"	f	class:Button
+SetCurrentWindow	winobject.cpp	/^void SuperStructure::SetCurrentWindow(WinList *pWL){$/;"	f	class:SuperStructure
+SetCurrentWindow	winobject.cpp	/^void SuperStructure::SetCurrentWindow(unsigned Id){$/;"	f	class:SuperStructure
+SetDimensions	winobject.cpp	/^ void Win_Objects::SetDimensions(int w,int h){$/;"	f	class:Win_Objects
+SetDimensions	winobject.cpp	/^void Rectangle::SetDimensions(int w,int h)$/;"	f	class:Rectangle
+SetFocusTo	winobject.cpp	/^short SuperStructure::SetFocusTo(unsigned Id,unsigned Pid){$/;"	f	class:SuperStructure
+SetInactive	winobject.cpp	/^void Button::SetInactive(void){$/;"	f	class:Button
+SetInactive	winobject.cpp	/^void Window::SetInactive(void){$/;"	f	class:Window
+SetInactive	winobject.h	/^  virtual void SetInactive (void)$/;"	f	class:Win_Objects
+SetItemState	menu.cpp	/^bool MenuBar::SetItemState(bool state,unsigned Value){$/;"	f	class:MenuBar
+SetKeyState	guiprocess.cpp	/^void SetKeyState(unsigned Id,unsigned Pid,unsigned kstate,unsigned kid)$/;"	f
+SetKeyState	winobject.h	/^  virtual void SetKeyState(bool state){ keyflow=state;}$/;"	f	class:Canvas
+SetKeyState	winobject.h	/^  virtual void SetKeyState(bool state){ keyflow=state;}$/;"	f	class:ScrollableCanvas
+SetKeyStateSc	guiprocess.cpp	/^void SetKeyStateSc(unsigned Id,unsigned Pid,unsigned kstate,unsigned kid)$/;"	f
+SetLabelText	winobject.cpp	/^  void Label::SetLabelText(char *text)$/;"	f	class:Label
+SetNextWindowActive	winobject.cpp	/^void SuperStructure::SetNextWindowActive(void){$/;"	f	class:SuperStructure
+SetPageState	menu.cpp	/^bool MenuBar::SetPageState(bool state,unsigned Value){$/;"	f	class:MenuBar
+SetPositionDown	menu.cpp	/^void Popup::SetPositionDown(void){$/;"	f	class:Popup
+SetPositionLeft	menu.cpp	/^void MenuBar::SetPositionLeft(void){$/;"	f	class:MenuBar
+SetPositionRight	menu.cpp	/^void MenuBar::SetPositionRight(void){$/;"	f	class:MenuBar
+SetPositionTo	menu.cpp	/^bool MenuBar::SetPositionTo(char k){$/;"	f	class:MenuBar
+SetPositionTo	menu.cpp	/^void Popup::SetPositionTo(char k){$/;"	f	class:Popup
+SetPositionUp	menu.cpp	/^void Popup::SetPositionUp(void){$/;"	f	class:Popup
+SetStatus	winobject.h	/^  short SetStatus (short status)$/;"	f	class:CheckBox
+SetText	winobject.cpp	/^void Button::SetText(char *text)$/;"	f	class:Button
+SetText	winobject.cpp	/^void EditBox::SetText(char *t,short display)$/;"	f	class:EditBox
+SetTextColors	winobject.cpp	/^void Canvas::SetTextColors(int tc,int tbc,int fn)$/;"	f	class:Canvas
+SetTextColors	winobject.cpp	/^void ScrollableCanvas::SetTextColors(int tc,int tbc)$/;"	f	class:ScrollableCanvas
+SetTitleFlag	winobject.h	/^  void SetTitleFlag (short flag)$/;"	f	class:Window
+SetWindowTitle	guiprocess.cpp	/^void SetWindowTitle(unsigned Id,char *text){$/;"	f
+Set_Button_Colors	request.cpp	/^void Set_Button_Colors(unsigned id,unsigned pid,unsigned short procid,$/;"	f
+Set_Canvas_Key_State	request.cpp	/^void Set_Canvas_Key_State(unsigned id,unsigned pid,unsigned short procid,short kstate){$/;"	f
+Set_Canvas_Key_State_Sc	request.cpp	/^void Set_Canvas_Key_State_Sc(unsigned id,unsigned pid,unsigned short procid,short kstate){$/;"	f
+Set_CheckBox	request.cpp	/^void  Set_CheckBox(unsigned id,unsigned pid,unsigned short procid, short Status){$/;"	f
+Set_Component_State	request.cpp	/^void Set_Component_State(unsigned id,unsigned pid,unsigned short procid,$/;"	f
+Set_Focus_To	request.cpp	/^short Set_Focus_To(unsigned id,unsigned pid,unsigned short procid){$/;"	f
+Set_Menu_Item	request.cpp	/^void Set_Menu_Item(unsigned id,unsigned pid,unsigned short procid,$/;"	f
+Set_Menu_Page	request.cpp	/^void Set_Menu_Page(unsigned id,unsigned pid,unsigned short procid,$/;"	f
+Set_Text_Button	request.cpp	/^ int Set_Text_Button(unsigned id,unsigned pid,unsigned short procid,$/;"	f
+Set_Text_Colors	request.cpp	/^void Set_Text_Colors(unsigned id,unsigned pid,unsigned short procid ,$/;"	f
+Set_Text_Colors_Sc	request.cpp	/^void Set_Text_Colors_Sc(unsigned id,unsigned pid,unsigned short procid ,$/;"	f
+Set_Text_EditBox	request.cpp	/^int Set_Text_EditBox(unsigned id,unsigned pid,unsigned short procid,$/;"	f
+Set_Text_Label	request.cpp	/^int Set_Text_Label(unsigned id,unsigned pid,unsigned short procid,$/;"	f
+Set_Text_PasswordBox	request.cpp	/^int Set_Text_PasswordBox(unsigned id,unsigned pid,unsigned short procid,$/;"	f
+Set_Window_Title	request.cpp	/^void Set_Window_Title(unsigned id,unsigned pid ,unsigned short procid,char *text)$/;"	f
+ShiftDownBy	winobject.cpp	/^void Canvas::ShiftDownBy(unsigned dy,unsigned color)$/;"	f	class:Canvas
+ShiftLeftBy	winobject.cpp	/^void Canvas::ShiftLeftBy(unsigned dx,unsigned color)$/;"	f	class:Canvas
+ShiftRightBy	winobject.cpp	/^void Canvas::ShiftRightBy(unsigned dx,unsigned color)$/;"	f	class:Canvas
+ShiftUpBy	winobject.cpp	/^void Canvas::ShiftUpBy(unsigned dy,unsigned color)$/;"	f	class:Canvas
+Shift_Down_By	request.cpp	/^void Shift_Down_By(unsigned id,unsigned pid,unsigned short procid,unsigned dy,unsigned color){$/;"	f
+Shift_Left_By	request.cpp	/^void Shift_Left_By(unsigned id,unsigned pid,unsigned short procid,unsigned dx,unsigned color){$/;"	f
+Shift_Right_By	request.cpp	/^void Shift_Right_By(unsigned id,unsigned pid,unsigned short procid,$/;"	f
+Shift_Up_By	request.cpp	/^void Shift_Up_By(unsigned id,unsigned pid,unsigned short procid,unsigned$/;"	f
+ShowAllWindows	guiprocess.cpp	/^void ShowAllWindows(void)$/;"	f
+ShowAllWindows	winobject.cpp	/^void SuperStructure::ShowAllWindows(void){$/;"	f	class:SuperStructure
+ShowChildObjects	winobject.cpp	/^void SuperStructure::ShowChildObjects(unsigned Id)$/;"	f	class:SuperStructure
+ShowMenuBar	menu.cpp	/^void MenuBar::ShowMenuBar(void){  $/;"	f	class:MenuBar
+ShowPopups	menu.cpp	/^void MenuBar::ShowPopups(Popup *p){$/;"	f	class:MenuBar
+ShowWindow	guiprocess.cpp	/^short ShowWindow(unsigned Id)$/;"	f
+ShowWindow	winobject.cpp	/^ short SuperStructure::ShowWindow(unsigned Id){$/;"	f	class:SuperStructure
+Show_Window	request.cpp	/^void Show_Window(unsigned id, unsigned short procid)$/;"	f
+ShutDownGraphicsSys	vgasetup.c	/^void ShutDownGraphicsSys(void)$/;"	f
+ShutDownGuiSys	guisetup.c	/^void ShutDownGuiSys(void)$/;"	f
+Shutdown_GUI	request.cpp	/^void Shutdown_GUI(void)$/;"	f
+Source_Id	event.h	/^              unsigned Source_Id , Destination_Id, Message ;$/;"	m	struct:__anon1::__anon2::__anon4
+Split	pr.c	/^void PRect::Split(Rect &r){$/;"	f	class:PRect
+Start	winarea.h	/^   struct YHeader Start,End,*t,*t1;$/;"	m	class:WindowArea	typeref:struct:WindowArea::YHeader
+Start	winobject.h	/^  public:WinList * Start, *End;$/;"	m	class:SuperStructure
+State	menu.h	/^    bool State; \/\/ true =active$/;"	m	struct:__anon6
+SuperStructure	winobject.h	/^    SuperStructure ()$/;"	f	class:SuperStructure
+SuperStructure	winobject.h	/^class SuperStructure$/;"	c
+System	event.h	/^              }System ;$/;"	m	union:__anon1::__anon2	typeref:struct:__anon1::__anon2::__anon4
+SystemButton	winobject.cpp	/^SystemButton::SystemButton(unsigned pid,int x,int y):$/;"	f	class:SystemButton
+SystemButton	winobject.h	/^  SystemButton;$/;"	m	struct:__anon17	typeref:struct:__anon17::__anon20
+SystemButton	winobject.h	/^class SystemButton:public Button$/;"	c
+SystemInput	processinput.h	/^   }SystemInput ;$/;"	t	typeref:struct:__anon10
+SystemInput	request.h	/^    }SystemInput ;$/;"	t	typeref:struct:__anon11
+SystemSettings	winobject.h	/^SystemSettings;$/;"	t	typeref:struct:__anon17
+TABLE_H	table.h	2;"	d
+TABSIZE	font.c	8;"	d	file:
+TEXT	vga.h	20;"	d
+TRUE	constants.h	4;"	d
+TVGA8900	vga.h	328;"	d
+TableEditor	table.cpp	/^TableEditor::TableEditor(unsigned id, unsigned pid , int x, int y , int w, int h, int r,int c,FieldDescriptor *fd , Field  *info): Canvas(id,pid,x,y,w,h,0,$/;"	f	class:TableEditor
+TableEditor	table.h	/^class TableEditor: public Canvas $/;"	c
+Text	winobject.h	/^  char Text[80];$/;"	m	class:CheckBox
+Text	winobject.h	/^  char Text[EDIT_BOX_MAX_LENGTH];$/;"	m	class:EditBox
+Text	winobject.h	/^  protected:char Text[80];$/;"	m	class:Label
+TextBackgroundColor	winobject.h	/^    int TextColor, TextBackgroundColor, CanvasColor, CanvasBorderColor;$/;"	m	struct:__anon17::__anon21
+TextBackgroundColor	winobject.h	/^  int TextColor, TextBackgroundColor,FontWidth,FontHeight;$/;"	m	class:Canvas
+TextBackgroundColor	winobject.h	/^  int TextColor, TextBackgroundColor;$/;"	m	class:ScrollableCanvas
+TextColor	winobject.h	/^    int TextColor, TextBackgroundColor, CanvasColor, CanvasBorderColor;$/;"	m	struct:__anon17::__anon21
+TextColor	winobject.h	/^    int TextColor,$/;"	m	struct:__anon17::__anon22
+TextColor	winobject.h	/^  int TextColor, TextBackgroundColor,FontWidth,FontHeight;$/;"	m	class:Canvas
+TextColor	winobject.h	/^  int TextColor, TextBackgroundColor;$/;"	m	class:ScrollableCanvas
+TextIn	request.cpp	/^void TextIn(int channel ,unsigned procid , char *buffer, int length)$/;"	f
+TextOut	guiout.cpp	/^void TextOut(unsigned procid , char *buffer , int length )$/;"	f
+TextWrite	guiprocess.cpp	/^void TextWrite(unsigned Id,unsigned Pid,int x,int y,char *text,unsigned kid)$/;"	f
+TextWriteSc	guiprocess.cpp	/^void TextWriteSc(unsigned Id,unsigned Pid,int x,int y,char *text,unsigned kid)$/;"	f
+Theader	table.h	/^  FieldDescriptor* Theader;\/\/[60] ;$/;"	m	class:TableEditor
+Title	winobject.h	/^  protected:char Title[80];$/;"	m	class:Window
+TitleBarColor	winobject.h	/^    int BorderColor, BaseColor, TitleBarColor, TitleFontColor, DeactiveColor;$/;"	m	struct:__anon17::__anon18
+TitleBarColor	winobject.h	/^  int TitleBarColor, TitleTextColor;$/;"	m	class:Window
+TitleBarHeight	winobject.h	/^    int TitleBarHeight;$/;"	m	struct:__anon17::__anon18
+TitleFont	winobject.h	/^    unsigned char *TitleFont;$/;"	m	struct:__anon17::__anon18
+TitleFontColor	winobject.h	/^    int BorderColor, BaseColor, TitleBarColor, TitleFontColor, DeactiveColor;$/;"	m	struct:__anon17::__anon18
+TitleFontHeight	winobject.h	/^    int TitleFontWidth, TitleFontHeight;$/;"	m	struct:__anon17::__anon18
+TitleFontWidth	winobject.h	/^    int TitleFontWidth, TitleFontHeight;$/;"	m	struct:__anon17::__anon18
+TitleTextColor	winobject.h	/^  int TitleBarColor, TitleTextColor;$/;"	m	class:Window
+Top	winobject.h	/^  public:int Left, Right, Top, Bottom, Width, Height;$/;"	m	class:Rectangle
+TopCenterMerge	pr.c	/^void PRect::TopCenterMerge(void){$/;"	f	class:PRect
+TopOf	pr.c	/^bool Rect:: TopOf(Rect &r){$/;"	f	class:Rect
+TopTo	pr.c	/^bool Rect:: TopTo(Rect &r){$/;"	f	class:Rect
+TotalMenuItems	menu.h	/^    unsigned TotalPullDowns,TotalMenuItems;$/;"	m	class:MenuBar
+TotalPullDowns	menu.h	/^    unsigned TotalPullDowns,TotalMenuItems;$/;"	m	class:MenuBar
+Type	event.h	/^    short Type,Read;$/;"	m	struct:__anon1
+Type	keyval.h	/^	 unsigned char Type ;$/;"	m	struct:__anon5
+UNDEFINED	vga.h	324;"	d
+UNLOCKED	table.h	11;"	d
+Unlink	winarea.cpp	/^void WindowArea::Unlink(Win_Objects &W){$/;"	f	class:WindowArea
+Unlink	winarea.cpp	/^void WindowArea::Unlink(int l,int t,int r,int b,int ID){$/;"	f	class:WindowArea
+Update	winobject.cpp	/^static boolean Update[MAX_WINDOWS];$/;"	v	file:
+UpdateArea	winobject.cpp	/^void Canvas::UpdateArea(int left,int top,int right,int bottom){$/;"	f	class:Canvas
+UpdateFlag	winobject.cpp	/^static boolean UpdateFlag;$/;"	v	file:
+UpdateInvalid	winarea.cpp	/^int WindowArea::UpdateInvalid(Win_Objects &W){$/;"	f	class:WindowArea
+UpdatePages	menu.cpp	/^void MenuBar::UpdatePages(int i,unsigned Value){$/;"	f	class:MenuBar
+UpdateScreen	winobject.cpp	/^  void SuperStructure::UpdateScreen(void){$/;"	f	class:SuperStructure
+UpdateValid	winarea.cpp	/^int WindowArea::UpdateValid(Win_Objects &W){$/;"	f	class:WindowArea
+VBUF	vgagl.h	73;"	d
+VBuffer	winobject.h	/^  char *VBuffer;$/;"	m	class:Canvas
+VESA	vga.h	343;"	d
+VGA	vga.h	325;"	d
+VGAGL_H	vgagl.h	4;"	d
+VGASETUP_H	vgasetup.h	2;"	d
+VGA_AVAIL_ACCEL	vga.h	430;"	d
+VGA_AVAIL_FLAGS	vga.h	431;"	d
+VGA_AVAIL_ROP	vga.h	432;"	d
+VGA_AVAIL_ROPMODES	vga.h	434;"	d
+VGA_AVAIL_SET	vga.h	429;"	d
+VGA_AVAIL_TRANSMODES	vga.h	435;"	d
+VGA_AVAIL_TRANSPARENCY	vga.h	433;"	d
+VGA_CLUT8	vga.h	438;"	d
+VGA_COMEFROMBACK	vga.h	529;"	d
+VGA_EXT_AVAILABLE	vga.h	419;"	d
+VGA_EXT_CLEAR	vga.h	421;"	d
+VGA_EXT_FONT_SIZE	vga.h	426;"	d
+VGA_EXT_PAGE_OFFSET	vga.h	423;"	d
+VGA_EXT_RESET	vga.h	422;"	d
+VGA_EXT_SET	vga.h	420;"	d
+VGA_GOTOBACK	vga.h	528;"	d
+VGA_H	vga.h	10;"	d
+VGA_KEYEVENT	vga.h	516;"	d
+VGA_MOUSEEVENT	vga.h	515;"	d
+Valid	winarea.h	/^		unsigned short Valid;$/;"	m	struct:XInfo
+Value	event.h	/^               unsigned Value; $/;"	m	struct:__anon1::__anon2::__anon3
+Value	keyval.h	/^	 unsigned short Value;$/;"	m	struct:__anon5
+Value	menu.h	/^           Value;$/;"	m	struct:__anon7
+Value	menu.h	/^    int  Value; \/\/ positive values denote return values$/;"	m	struct:__anon6
+VirtualHeight	winobject.h	/^  int VirtualWidth, VirtualHeight;$/;"	m	class:ScrollableCanvas
+VirtualLeft	winobject.h	/^  int VirtualTop, VirtualLeft;$/;"	m	class:ScrollableCanvas
+VirtualTop	winobject.h	/^  int VirtualTop, VirtualLeft;$/;"	m	class:ScrollableCanvas
+VirtualWidth	winobject.h	/^  int VirtualWidth, VirtualHeight;$/;"	m	class:ScrollableCanvas
+WIDTH	vgagl.h	71;"	d
+WINAREA_H	winarea.h	6;"	d
+WINDOW_4	guitest.cpp	6;"	d	file:
+WINDOW_BUTTON_CROSS	winobject.h	198;"	d
+WINOBJECTS_H	winobject.h	8;"	d
+WRITEMODE_MASKED	vgagl.h	146;"	d
+WRITEMODE_OVERWRITE	vgagl.h	145;"	d
+WRect	wpr.h	/^  WRect(unsigned l,unsigned t,unsigned r,unsigned b):$/;"	f	class:WRect
+WRect	wpr.h	/^class WRect : public PRect{$/;"	c
+Width	winobject.h	/^  public:int Left, Right, Top, Bottom, Width, Height;$/;"	m	class:Rectangle
+WinList	winobject.h	/^WinList;$/;"	t	typeref:struct:tag_WinList
+Win_Objects	winobject.cpp	/^Win_Objects::Win_Objects(int x,int y,int w, int h,unsigned id, unsigned pid,int bc,int bdc):Rectangle(x,y,w,h)$/;"	f	class:Win_Objects
+Win_Objects	winobject.h	/^class Win_Objects:public Rectangle$/;"	c
+Window	winobject.cpp	/^Window::Window(unsigned id,unsigned pid,int x,int y,int w, int h, char *text,unsigned processid,int bc, int bdc, int tbc,int ttc): Win_Objects(x,y,w,h,id,0,bc,bdc),wr(x,y,x+w-1,y+h-1)$/;"	f	class:Window
+Window	winobject.h	/^  Window;$/;"	m	struct:__anon17	typeref:struct:__anon17::__anon18
+Window	winobject.h	/^class Window:public Win_Objects$/;"	c
+WindowArea	winarea.cpp	/^WindowArea::WindowArea(unsigned MaxX,unsigned MaxY){$/;"	f	class:WindowArea
+WindowArea	winarea.h	/^class WindowArea {$/;"	c
+WindowCount	winarea.cpp	/^short WindowArea::WindowCount=0;$/;"	m	class:WindowArea	file:
+WindowCount	winarea.h	/^   	static short WindowCount;$/;"	m	class:WindowArea
+WindowMoveFlag	winobject.h	/^  int WindowMoveFlag;$/;"	m	struct:__anon17
+Write	table.cpp	/^void TableEditor::Write(int x,int y,char *text,int backcolor)$/;"	f	class:TableEditor
+Write	winobject.cpp	/^void Canvas::Write(int x,int y,int fc,int bc,int fno,char *text)$/;"	f	class:Canvas
+Write	winobject.cpp	/^void ScrollableCanvas::Write(int x,int y,int fc,int bc,int fno,char *text)$/;"	f	class:ScrollableCanvas
+Write2	winobject.cpp	/^void Canvas::Write2(int x,int y,char *text)$/;"	f	class:Canvas
+WriteBuffer	table.cpp	/^void TableEditor::WriteBuffer()$/;"	f	class:TableEditor
+WriteText	guiprocess.cpp	/^void WriteText(unsigned Id,unsigned Pid,int x,int y,int tc,int tbc,int fno,char *text,unsigned kid)$/;"	f
+Write_Text	request.cpp	/^void Write_Text(unsigned id,unsigned pid ,unsigned short procid,int x,int y$/;"	f
+X	winarea.h	/^		unsigned X;$/;"	m	struct:XInfo
+XInfo	winarea.h	/^struct XInfo{$/;"	s
+XLines	winarea.h	/^		  struct XInfo XLines[2*MAX_WINDOWS];$/;"	m	struct:YHeader	typeref:struct:YHeader::XInfo
+X_MOVE	guiprocess.cpp	14;"	d	file:
+Y	winarea.h	/^		  unsigned Y,NumberOfXLines,References;$/;"	m	struct:YHeader
+YHeader	winarea.h	/^struct YHeader{$/;"	s
+Y_MOVE	guiprocess.cpp	15;"	d	file:
+__GLASTMODE	vga.h	196;"	d
+__REQUEST_H__	request.h	2;"	d
+__clip	vgagl.h	79;"	d
+__clipx1	vgagl.h	80;"	d
+__clipx2	vgagl.h	82;"	d
+__clipy1	vgagl.h	81;"	d
+__clipy2	vgagl.h	83;"	d
+aBaseColor	winobject.h	/^  int FocusColor, aBaseColor;$/;"	m	class:Button
+active	winobject.h	/^  short active, Infocus, display;$/;"	m	class:Win_Objects
+activefontcolor	winobject.h	/^  int activefontcolor;$/;"	m	class:Button
+allnumeric	readtbrc.cpp	/^int allnumeric(char* a)$/;"	f
+animate	winobject.cpp	/^void Button :: animate(void)$/;"	f	class:Button
+animate	winobject.cpp	/^void SystemButton::animate(void)$/;"	f	class:SystemButton
+aperture_size	vga.h	/^	int aperture_size;	\/* size of aperture in KB if size>=videomemory. 0 if unavail *\/$/;"	m	struct:__anon16
+barh	table.h	/^  int barh,barw,units ;$/;"	m	class:TableEditor
+barw	table.h	/^  int barh,barw,units ;$/;"	m	class:TableEditor
+bbottom	winobject.h	/^  unsigned btop, bleft, bright, bbottom;$/;"	m	class:CheckBox
+bitsperpixel	vgagl.h	/^	int bitsperpixel;	\/* bits per pixel (8, 15, 16 or 24) *\/$/;"	m	struct:__anon13
+bleft	winobject.h	/^  unsigned btop, bleft, bright, bbottom;$/;"	m	class:CheckBox
+blsx	winobject.h	/^  int blsx, blsy;$/;"	m	class:Button
+blsy	winobject.h	/^  int blsx, blsy;$/;"	m	class:Button
+blue	vgagl.h	/^	    unsigned char blue;$/;"	m	struct:__anon14::__anon15
+boolean	constants.h	6;"	d
+bottom	pr.h	/^		  int left,top,right,bottom;$/;"	m	class:Rect
+bright	winobject.h	/^  unsigned btop, bleft, bright, bbottom;$/;"	m	class:CheckBox
+btop	winobject.h	/^  unsigned btop, bleft, bright, bbottom;$/;"	m	class:CheckBox
+bytesperpixel	vga.h	/^	int bytesperpixel;$/;"	m	struct:__anon16
+bytesperpixel	vgagl.h	/^	int bytesperpixel;	\/* bytes per pixel (1, 2, 3, or 4) *\/$/;"	m	struct:__anon13
+bytewidth	vgagl.h	/^	int bytewidth;		\/* length of a scanline in bytes *\/$/;"	m	struct:__anon13
+c	readresource.cpp	/^ char c;$/;"	v
+cgc	winobject.h	/^  GraphicsContext *vgc, *cgc;$/;"	m	class:Canvas
+changetablestate	table.cpp	/^void TableEditor::changetablestate(int col)$/;"	f	class:TableEditor
+childid	winobject.h	/^  unsigned childid;$/;"	m	class:Window
+chiptype	vga.h	/^	int chiptype;		\/* Chiptype detected *\/$/;"	m	struct:__anon16
+chpos	table.h	/^  int CellPosition, chpos, vpos ;$/;"	m	class:TableEditor
+clip	vgagl.h	/^	int clip;		\/* clipping enabled? *\/$/;"	m	struct:__anon13
+clipx1	vgagl.h	/^	int clipx1;		\/* top-left coordinate of clip window *\/$/;"	m	struct:__anon13
+clipx2	vgagl.h	/^	int clipx2;		\/* bottom-right coordinate of clip window *\/$/;"	m	struct:__anon13
+clipy1	vgagl.h	/^	int clipy1;$/;"	m	struct:__anon13
+clipy2	vgagl.h	/^	int clipy2;$/;"	m	struct:__anon13
+close_keyboard	mq1.c	/^void close_keyboard(){$/;"	f
+cm	winobject.cpp	/^CanvasMap cm;$/;"	v
+color	vgagl.h	/^	} color[256];$/;"	m	struct:__anon14	typeref:struct:__anon14::__anon15
+colors	vga.h	/^	int colors;$/;"	m	struct:__anon16
+colors	vgagl.h	/^	int colors;		\/* number of colors *\/$/;"	m	struct:__anon13
+cpx	table.h	/^  int cpx,cpy ;$/;"	m	class:TableEditor
+cpy	table.h	/^  int cpx,cpy ;$/;"	m	class:TableEditor
+create_mq	mesg.c	/^int create_mq(key_t mq_key)$/;"	f
+curr_pwin	winobject.cpp	/^unsigned curr_pwin=0;$/;"	v
+data	font_bdf.h	/^  signed char *data;$/;"	m	struct:fontinfo_tag
+debug_fp	debug.c	/^FILE *debug_fp;$/;"	v
+decomposed	pr.h	/^		  bool decomposed;$/;"	m	class:PRect
+display	winobject.h	/^  short active, Infocus, display;$/;"	m	class:Win_Objects
+display_flag	winobject.h	/^  short display_flag, move_flag, update_report;$/;"	m	class:Window
+dl	winobject.h	/^  protected:short Length, Position, dl, dr, nc, dp, dy;$/;"	m	class:EditBox
+dp	winobject.h	/^  protected:short Length, Position, dl, dr, nc, dp, dy;$/;"	m	class:EditBox
+dr	winobject.h	/^  protected:short Length, Position, dl, dr, nc, dp, dy;$/;"	m	class:EditBox
+draw3dinbox	box.c	/^void draw3dinbox(int x,int y,int w,int h)$/;"	f
+draw3dinline	box.c	/^ void draw3dinline(int x1,int y1,int x2,int y2){$/;"	f
+draw3doutbox	box.c	/^void draw3doutbox(int x,int y,int w,int h)$/;"	f
+drawNOTbox	box.c	/^void drawNOTbox(int x,int y,int w,int h)$/;"	f
+draw_text	font.c	/^void draw_text(int xpos,int ypos,char *str,short back,int backcolor,$/;"	f
+drawbox	box.c	/^void drawbox(int x,int y,int w,int h,int c)$/;"	f
+drawdashedbox	box.c	/^void drawdashedbox(int x,int y,int w, int h,int c){$/;"	f
+driver_copybox_func	vgagl.h	/^	void (*driver_copybox_func) (int, int, int, int, int, int);$/;"	m	struct:__anon12
+driver_fillbox_func	vgagl.h	/^	void (*driver_fillbox_func) (int, int, int, int, int);$/;"	m	struct:__anon12
+driver_getbox_func	vgagl.h	/^	void (*driver_getbox_func) (int, int, int, int, void *, int);$/;"	m	struct:__anon12
+driver_getboxpart_func	vgagl.h	/^	void (*driver_getboxpart_func) (int, int, int, int, int, int, void *,$/;"	m	struct:__anon12
+driver_getpixel_func	vgagl.h	/^	int (*driver_getpixel_func) (int, int);$/;"	m	struct:__anon12
+driver_hline_func	vgagl.h	/^	void (*driver_hline_func) (int, int, int, int);$/;"	m	struct:__anon12
+driver_putbox_func	vgagl.h	/^	void (*driver_putbox_func) (int, int, int, int, void *, int);$/;"	m	struct:__anon12
+driver_putboxmask_func	vgagl.h	/^	void (*driver_putboxmask_func) (int, int, int, int, void *);$/;"	m	struct:__anon12
+driver_putboxpart_func	vgagl.h	/^	void (*driver_putboxpart_func) (int, int, int, int, int, int, void *,$/;"	m	struct:__anon12
+driver_setpixel_func	vgagl.h	/^	void (*driver_setpixel_func) (int, int, int);$/;"	m	struct:__anon12
+dtv	debug.c	/^struct timeval dtv;$/;"	v	typeref:struct:timeval
+dummy	vgagl.h	/^	unsigned char dummy;$/;"	m	struct:__anon13
+dump_file_to_network_prn	printer.c	/^void dump_file_to_network_prn()$/;"	f
+dx	table.h	/^  int dx , dy ;$/;"	m	class:TableEditor
+dy	table.h	/^  int dx , dy ;$/;"	m	class:TableEditor
+dy	winobject.h	/^  protected:short Length, Position, dl, dr, nc, dp, dy;$/;"	m	class:EditBox
+errflag	readresource.cpp	/^ bool errflag;$/;"	v
+escape_sequences	keymap.h	/^short escape_sequences[][6]={  $/;"	v
+extensions	vga.h	/^	void *extensions;	\/* points to copy of eeprom for mach32 *\/$/;"	m	struct:__anon16
+false	constants.h	20;"	d
+ff	vgagl.h	/^	framebufferfunctions ff;$/;"	m	struct:__anon13
+fh	font_bdf.h	/^  int yofs,fh,oy;$/;"	m	struct:fontinfo_tag
+flags	vga.h	/^	int flags;		\/* other flags *\/$/;"	m	struct:__anon16
+flippage	vgagl.h	/^	unsigned char flippage;$/;"	m	struct:__anon13
+fm	readresource.cpp	/^FILE *fm;   		$/;"	v
+font0	guiprocess.h	15;"	d
+fontArialn10	font_bdf.c	/^ struct fontinfo_tag fontArialn10={$/;"	v	typeref:struct:fontinfo_tag
+fontArialn10dat	font_bdf.c	/^ signed char fontArialn10dat[]={$/;"	v
+fontArialn12	font_bdf.c	/^ struct fontinfo_tag fontArialn12={$/;"	v	typeref:struct:fontinfo_tag
+fontArialn12dat	font_bdf.c	/^ signed char fontArialn12dat[]={$/;"	v
+fontArialn14	font_bdf.c	/^ struct fontinfo_tag fontArialn14={$/;"	v	typeref:struct:fontinfo_tag
+fontArialn14dat	font_bdf.c	/^ signed char fontArialn14dat[]={$/;"	v
+fontArialn16	font_bdf.c	/^ struct fontinfo_tag fontArialn16={$/;"	v	typeref:struct:fontinfo_tag
+fontArialn16dat	font_bdf.c	/^ signed char fontArialn16dat[]={$/;"	v
+fontArialn20	font_bdf.c	/^ struct fontinfo_tag fontArialn20={$/;"	v	typeref:struct:fontinfo_tag
+fontArialn20dat	font_bdf.c	/^ signed char fontArialn20dat[]={$/;"	v
+fontArialn24	font_bdf.c	/^ struct fontinfo_tag fontArialn24={$/;"	v	typeref:struct:fontinfo_tag
+fontArialn24dat	font_bdf.c	/^signed char fontArialn24dat[]={$/;"	v
+fontariali10	font_bdf.c	/^ struct fontinfo_tag fontariali10={$/;"	v	typeref:struct:fontinfo_tag
+fontariali10dat	font_bdf.c	/^ signed char fontariali10dat[]={$/;"	v
+fontariali14	font_bdf.c	/^ struct fontinfo_tag fontariali14={$/;"	v	typeref:struct:fontinfo_tag
+fontariali14dat	font_bdf.c	/^ signed char fontariali14dat[]={$/;"	v
+fontariali16	font_bdf.c	/^ struct fontinfo_tag fontariali16={$/;"	v	typeref:struct:fontinfo_tag
+fontariali16dat	font_bdf.c	/^ signed char fontariali16dat[]={$/;"	v
+fontariali24	font_bdf.c	/^ struct fontinfo_tag fontariali24={$/;"	v	typeref:struct:fontinfo_tag
+fontariali24dat	font_bdf.c	/^ signed char fontariali24dat[]={$/;"	v
+fontcour10	font_bdf.c	/^ struct fontinfo_tag fontcour10={$/;"	v	typeref:struct:fontinfo_tag
+fontcour10dat	font_bdf.c	/^ signed char fontcour10dat[]={$/;"	v
+fontcour12	font_bdf.c	/^ struct fontinfo_tag fontcour12={$/;"	v	typeref:struct:fontinfo_tag
+fontcour12dat	font_bdf.c	/^ signed char fontcour12dat[]={$/;"	v
+fontcour16	font_bdf.c	/^ struct fontinfo_tag fontcour16={$/;"	v	typeref:struct:fontinfo_tag
+fontcour16dat	font_bdf.c	/^ signed char fontcour16dat[]={$/;"	v
+fontcour20	font_bdf.c	/^ struct fontinfo_tag fontcour20={$/;"	v	typeref:struct:fontinfo_tag
+fontcour20dat	font_bdf.c	/^ signed char fontcour20dat[]={$/;"	v
+fontcour24	font_bdf.c	/^ struct fontinfo_tag fontcour24={$/;"	v	typeref:struct:fontinfo_tag
+fontcour24dat	font_bdf.c	/^ signed char fontcour24dat[]={$/;"	v
+fontimpact12	font_bdf.c	/^ struct fontinfo_tag fontimpact12={$/;"	v	typeref:struct:fontinfo_tag
+fontimpact12dat	font_bdf.c	/^ signed char fontimpact12dat[]={$/;"	v
+fontimpact16	font_bdf.c	/^ struct fontinfo_tag fontimpact16={$/;"	v	typeref:struct:fontinfo_tag
+fontimpact16dat	font_bdf.c	/^ signed char fontimpact16dat[]={$/;"	v
+fontimpact20	font_bdf.c	/^ struct fontinfo_tag fontimpact20={$/;"	v	typeref:struct:fontinfo_tag
+fontimpact20dat	font_bdf.c	/^ signed char fontimpact20dat[]={$/;"	v
+fontimpact24	font_bdf.c	/^ struct fontinfo_tag fontimpact24={$/;"	v	typeref:struct:fontinfo_tag
+fontimpact24dat	font_bdf.c	/^ signed char fontimpact24dat[]={$/;"	v
+fontinfo_tag	font_bdf.h	/^struct fontinfo_tag$/;"	s
+fontno	winobject.h	/^  int fontno;$/;"	m	class:Canvas
+fonttimesI10	font_bdf.c	/^ struct fontinfo_tag fonttimesI10={$/;"	v	typeref:struct:fontinfo_tag
+fonttimesI10dat	font_bdf.c	/^ signed char fonttimesI10dat[]={$/;"	v
+fonttimesI12	font_bdf.c	/^ struct fontinfo_tag fonttimesI12={$/;"	v	typeref:struct:fontinfo_tag
+fonttimesI12dat	font_bdf.c	/^ signed char fonttimesI12dat[]={$/;"	v
+fonttimesI14	font_bdf.c	/^ struct fontinfo_tag fonttimesI14={$/;"	v	typeref:struct:fontinfo_tag
+fonttimesI14dat	font_bdf.c	/^ signed char fonttimesI14dat[]={$/;"	v
+fonttimesI16	font_bdf.c	/^ struct fontinfo_tag fonttimesI16={$/;"	v	typeref:struct:fontinfo_tag
+fonttimesI16dat	font_bdf.c	/^ signed char fonttimesI16dat[]={$/;"	v
+fonttimesI20	font_bdf.c	/^ struct fontinfo_tag fonttimesI20={$/;"	v	typeref:struct:fontinfo_tag
+fonttimesI20dat	font_bdf.c	/^ signed char fonttimesI20dat[]={$/;"	v
+fonttimesI24	font_bdf.c	/^ struct fontinfo_tag fonttimesI24={$/;"	v	typeref:struct:fontinfo_tag
+fonttimesI24dat	font_bdf.c	/^ signed char fonttimesI24dat[]={$/;"	v
+fonttimesR10	font_bdf.c	/^ struct fontinfo_tag fonttimesR10={$/;"	v	typeref:struct:fontinfo_tag
+fonttimesR10dat	font_bdf.c	/^signed char fonttimesR10dat[]={$/;"	v
+fonttimesR12	font_bdf.c	/^ struct fontinfo_tag fonttimesR12={$/;"	v	typeref:struct:fontinfo_tag
+fonttimesR12dat	font_bdf.c	/^ signed char fonttimesR12dat[]={$/;"	v
+fonttimesR14	font_bdf.c	/^ struct fontinfo_tag fonttimesR14={$/;"	v	typeref:struct:fontinfo_tag
+fonttimesR14dat	font_bdf.c	/^ signed char fonttimesR14dat[]={$/;"	v
+fonttimesR16	font_bdf.c	/^ struct fontinfo_tag fonttimesR16={$/;"	v	typeref:struct:fontinfo_tag
+fonttimesR16dat	font_bdf.c	/^ signed char fonttimesR16dat[]={$/;"	v
+fonttimesR20	font_bdf.c	/^ struct fontinfo_tag fonttimesR20={$/;"	v	typeref:struct:fontinfo_tag
+fonttimesR20dat	font_bdf.c	/^ signed char fonttimesR20dat[]={$/;"	v
+fonttimesR24	font_bdf.c	/^ struct fontinfo_tag fonttimesR24={$/;"	v	typeref:struct:fontinfo_tag
+fonttimesR24dat	font_bdf.c	/^ signed char fonttimesR24dat[]={$/;"	v
+fp	readtbrc.cpp	/^FILE *fp ;$/;"	v
+framebufferfunctions	vgagl.h	/^    } framebufferfunctions;$/;"	t	typeref:struct:__anon12
+gmhi	readresource.cpp	/^ static int lli,gmhi,gmii;$/;"	v	file:
+gmii	readresource.cpp	/^ static int lli,gmhi,gmii;$/;"	v	file:
+goq	guiout.cpp	/^int goq;$/;"	v
+green	vgagl.h	/^	    unsigned char green;$/;"	m	struct:__anon14::__anon15
+haveblit	vga.h	/^	int haveblit;		\/* mask of blit functions available *\/$/;"	m	struct:__anon16
+height	vga.h	/^	int height;$/;"	m	struct:__anon16
+height	vgagl.h	/^	int height;		\/* height in pixels *\/$/;"	m	struct:__anon13
+howto	menu.cpp	/^void MenuBar::howto(void){$/;"	f	class:MenuBar
+howto	table.cpp	/^void TableEditor::howto(void)$/;"	f	class:TableEditor
+howto	winobject.cpp	/^  void Label::howto(void)$/;"	f	class:Label
+howto	winobject.cpp	/^void Button::howto(void)$/;"	f	class:Button
+howto	winobject.cpp	/^void Canvas::howto(void)$/;"	f	class:Canvas
+howto	winobject.cpp	/^void CheckBox::howto(void)$/;"	f	class:CheckBox
+howto	winobject.cpp	/^void EditBox::howto(void)$/;"	f	class:EditBox
+howto	winobject.cpp	/^void PasswordBox::howto(void)$/;"	f	class:PasswordBox
+howto	winobject.cpp	/^void ScrollableCanvas::howto(void)$/;"	f	class:ScrollableCanvas
+howto	winobject.cpp	/^void SystemButton::howto(void)$/;"	f	class:SystemButton
+howto	winobject.cpp	/^void Window::howto()$/;"	f	class:Window
+howto	winobject.h	/^  virtual void howto (void)$/;"	f	class:Win_Objects
+iRC	winobject.cpp	/^static int iRC;$/;"	v	file:
+inactivefontcolor	winobject.h	/^  int inactivefontcolor;$/;"	m	class:Button
+info	winobject.h	/^  Win_Objects *info;$/;"	m	struct:tag_componentlist
+init_keyboard	mq1.c	/^void init_keyboard(){$/;"	f
+is	mq1.c	/^static struct termios is,ns;$/;"	v	typeref:struct:termios	file:
+keyflow	winobject.h	/^   bool keyflow;$/;"	m	class:ScrollableCanvas
+keyflow	winobject.h	/^  bool keyflow;$/;"	m	class:Canvas
+keyval	keyval.h	/^ }keyval;$/;"	t	typeref:struct:__anon5
+labels	processinput.h	/^      char labels[800];$/;"	m	struct:__anon10
+labels	request.h	/^    char labels[800];$/;"	m	struct:__anon11
+left	pr.h	/^		  int left,top,right,bottom;$/;"	m	class:Rect
+length	table.h	/^   short length ;$/;"	m	struct:FieldDescriptor
+linear_aperture	vga.h	/^	char *linear_aperture;	\/* points to mmap secondary mem aperture of card (NULL if unavailable) *\/$/;"	m	struct:__anon16
+linewidth	vga.h	/^	int linewidth;		\/* scanline width in bytes *\/$/;"	m	struct:__anon16
+linewidth_unit	vga.h	/^	int linewidth_unit;	\/* Use only a multiple of this as parameter for set_logicalwidth and$/;"	m	struct:__anon16
+ll	winarea.cpp	/^static int ll;$/;"	v	file:
+lli	readresource.cpp	/^ static int lli,gmhi,gmii;$/;"	v	file:
+locked	table.h	/^   short locked ;$/;"	m	struct:FieldDescriptor
+main	guitest.cpp	/^main()$/;"	f
+main	mq1.c	/^main()$/;"	f
+main	ssgui.cpp	/^main(int argc,char *argv[])$/;"	f
+max	pr.c	7;"	d	file:
+maxlogicalwidth	vga.h	/^	int maxlogicalwidth;	\/* maximum logical scanline width *\/$/;"	m	struct:__anon16
+maxpixels	vga.h	/^	int maxpixels;		\/* video memory \/ bytesperpixel *\/$/;"	m	struct:__anon16
+memory	vga.h	/^	int memory;		\/* videomemory in KB *\/$/;"	m	struct:__anon16
+mesg_len	mesg.h	/^	int mesg_len;$/;"	m	struct:__anon8
+mesg_recv	mesg.c	/^int mesg_recv(int mq_id, Mesg *mesgptr)$/;"	f
+mesg_recvb	mesg.c	/^int mesg_recvb(int mq_id, Mesg *mesgptr)$/;"	f
+mesg_recvi	mesg.c	/^int mesg_recvi(int mq_id, Mesg *mesgptr)$/;"	f
+mesg_send	mesg.c	/^void mesg_send(int mq_id, Mesg *mesgptr)$/;"	f
+mesg_text	mesg.h	/^	char mesg_text[MAXMESGDATA];$/;"	m	struct:__anon8
+mesg_type	mesg.h	/^	long mesg_type;$/;"	m	struct:__anon8
+mflag	pr.h	/^		  bool mflag;$/;"	m	class:PRect
+min	pr.c	8;"	d	file:
+modeflags	vgagl.h	/^	unsigned char modeflags;	\/* or planar16 *\/$/;"	m	struct:__anon13
+modetype	vgagl.h	/^	unsigned char modetype;	\/* virtual, paged, linear, mode X *\/$/;"	m	struct:__anon13
+move_flag	winobject.h	/^  short display_flag, move_flag, update_report;$/;"	m	class:Window
+my_msg	processinput.cpp	/^Mesg my_msg;$/;"	v
+nc	winobject.h	/^  protected:short Length, Position, dl, dr, nc, dp, dy;$/;"	m	class:EditBox
+ns	mq1.c	/^static struct termios is,ns;$/;"	v	typeref:struct:	file:
+objshowBuffer	winobject.cpp	/^ static unsigned objshowBuffer[4*MAX_WINDOWS];$/;"	v	file:
+objshowregions	winobject.cpp	/^ static unsigned objshowregions;$/;"	v	file:
+off	readresource.cpp	/^ long off;$/;"	v
+oy	font_bdf.h	/^  int yofs,fh,oy;$/;"	m	struct:fontinfo_tag
+pCompCurrent	winobject.h	/^  ComponentList *pComponents, *pCompEnd, *pCompCurrent;$/;"	m	struct:tag_WinList
+pCompEnd	winobject.h	/^  ComponentList *pComponents, *pCompEnd, *pCompCurrent;$/;"	m	struct:tag_WinList
+pComponents	winobject.h	/^  ComponentList *pComponents, *pCompEnd, *pCompCurrent;$/;"	m	struct:tag_WinList
+pCurrentFont	font.c	/^struct fontinfo_tag *pCurrentFont=&fontcour12;$/;"	v	typeref:struct:fontinfo_tag
+pMH	menu.h	/^     MenuHeader *pMH;$/;"	m	class:Popup
+pMH	menu.h	/^    MenuHeader *pMH;$/;"	m	class:MenuBar
+pMI	menu.h	/^     MenuItem *pMI;$/;"	m	class:Popup
+pMI	menu.h	/^    MenuItem *pMI;$/;"	m	class:MenuBar
+pML	menu.h	/^    char *pML;$/;"	m	class:MenuBar
+pP	menu.h	/^     unsigned short *pP,*pX,*pY;$/;"	m	class:Popup
+pS	menu.h	/^     bool *pS;$/;"	m	class:Popup
+pStackTop	menu.h	/^    Popup *pStackTop;$/;"	m	class:MenuBar
+pWindow	winobject.h	/^  Window *pWindow;$/;"	m	struct:tag_WinList
+pX	menu.h	/^     unsigned short *pP,*pX,*pY;$/;"	m	class:Popup
+pY	menu.h	/^     unsigned short *pP,*pX,*pY;$/;"	m	class:Popup
+p_bottom	pr.h	/^enum portions { p_top=0,p_left=1,p_bottom=2,p_right=3,p_center=4};$/;"	e	enum:portions
+p_center	pr.h	/^enum portions { p_top=0,p_left=1,p_bottom=2,p_right=3,p_center=4};$/;"	e	enum:portions
+p_left	pr.h	/^enum portions { p_top=0,p_left=1,p_bottom=2,p_right=3,p_center=4};$/;"	e	enum:portions
+p_right	pr.h	/^enum portions { p_top=0,p_left=1,p_bottom=2,p_right=3,p_center=4};$/;"	e	enum:portions
+p_top	pr.h	/^enum portions { p_top=0,p_left=1,p_bottom=2,p_right=3,p_center=4};$/;"	e	enum:portions
+parentid	winobject.h	/^  unsigned parentid;$/;"	m	class:Window
+partitions	pr.h	/^		  PRect* partitions[5];$/;"	m	class:PRect
+parwin	winobject.cpp	/^static unsigned parwin=0;$/;"	v	file:
+pd	ssgui.cpp	/^FILE *pd;$/;"	v
+peek_ch	mq1.c	/^static int peek_ch=-1;$/;"	v	file:
+pfd	readtbrc.cpp	/^FieldDescriptor *pfd ;$/;"	v
+port_no	printer.c	/^unsigned short port_no = 9100;$/;"	v
+portions	pr.h	/^enum portions { p_top=0,p_left=1,p_bottom=2,p_right=3,p_center=4};$/;"	g
+pr	ssgui.cpp	/^int pr;$/;"	v
+printer_ip	printer.c	/^char printer_ip[100] = "192.168.1.50";  $/;"	v
+process	menu.cpp	/^void MenuBar::process(Message *WinM){$/;"	f	class:MenuBar
+process	menu.cpp	/^void Popup::process(Message *WinM){$/;"	f	class:Popup
+process	table.cpp	/^void TableEditor::process(Message *WinM)$/;"	f	class:TableEditor
+process	winobject.cpp	/^ void ScrollableCanvas::process(Message *WinM)$/;"	f	class:ScrollableCanvas
+process	winobject.cpp	/^void Button::process(Message *Button_Message)$/;"	f	class:Button
+process	winobject.cpp	/^void Canvas::process(Message *WinM){$/;"	f	class:Canvas
+process	winobject.cpp	/^void CheckBox::process(Message *wm)$/;"	f	class:CheckBox
+process	winobject.cpp	/^void EditBox::process(Message *WinM)$/;"	f	class:EditBox
+process	winobject.cpp	/^void Label::process(Message *wm)$/;"	f	class:Label
+process	winobject.cpp	/^void SystemButton::process(Message *Button_Message)$/;"	f	class:SystemButton
+process	winobject.cpp	/^void Window::process(Message *GuiM)$/;"	f	class:Window
+process	winobject.h	/^  virtual void process (Message * Win_Message)$/;"	f	class:Win_Objects
+processid	winobject.h	/^  int processid; $/;"	m	class:ScrollableCanvas
+processid	winobject.h	/^  int processid;$/;"	m	class:Canvas
+procid	winobject.h	/^  unsigned procid;$/;"	m	class:Window
+read_menu_pass1	readresource.cpp	/^short read_menu_pass1(char filename[],int *ptpd,int *ptmi,int * plength){$/;"	f
+read_menu_pass2	readresource.cpp	/^void read_menu_pass2(char *pll,MenuHeader *pmh,MenuItem *pmi,int n){$/;"	f
+read_next_number	readresource.cpp	/^int read_next_number(void){$/;"	f
+read_number	readresource.cpp	/^int read_number(void){$/;"	f
+red	vgagl.h	/^	    unsigned char red;	\/* 6-bit values *\/$/;"	m	struct:__anon14::__anon15
+remove_mq	mesg.c	/^int remove_mq(int mq_id)$/;"	f
+req_seq	request.cpp	/^int req_seq;$/;"	v
+returninfo	table.cpp	/^void TableEditor::returninfo(int *row , int *col , FieldDescriptor **fp, Field **buffer)$/;"	f	class:TableEditor
+right	pr.h	/^		  int left,top,right,bottom;$/;"	m	class:Rect
+scm	winobject.cpp	/^ScrollableCanvasMap scm;$/;"	v
+set_aperture_page	vga.h	/^	void (*set_aperture_page) (int page);$/;"	m	struct:__anon16
+set_font	font.c	/^void set_font(int fontno){$/;"	f
+set_fontcolor	font.c	/^void set_fontcolor(unsigned color){$/;"	f
+set_title	winobject.cpp	/^void Window::set_title(char *text)$/;"	f	class:Window
+show	menu.cpp	/^void MenuBar::show(void){$/;"	f	class:MenuBar
+show	menu.cpp	/^void Popup::show(void){$/;"	f	class:Popup
+show	winobject.cpp	/^ void Win_Objects::show(void){$/;"	f	class:Win_Objects
+show	winobject.cpp	/^void Window::show(void){$/;"	f	class:Window
+showTitleBar	winobject.cpp	/^void Window::showTitleBar(short tf)$/;"	f	class:Window
+smt	guiout.h	/^struct smt{$/;"	s
+smt	request.h	/^ struct smt{$/;"	s
+spacing	menu.h	/^     unsigned short CurrentPosition,textwidth,spacing,LastPopupId,vPosition,$/;"	m	class:Popup
+spacing	menu.h	/^    unsigned short CurrentPosition,spacing,$/;"	m	class:MenuBar
+startaddressrange	vga.h	/^	int startaddressrange;	\/* changeable bits set *\/$/;"	m	struct:__anon16
+t	winarea.h	/^   struct YHeader Start,End,*t,*t1;$/;"	m	class:WindowArea	typeref:struct:WindowArea::
+t1	winarea.h	/^   struct YHeader Start,End,*t,*t1;$/;"	m	class:WindowArea	typeref:struct:WindowArea::
+table	font_bdf.h	/^  int table[96];$/;"	m	struct:fontinfo_tag
+tag_WinList	winobject.h	/^typedef struct tag_WinList$/;"	s
+tag_componentlist	winobject.h	/^typedef struct tag_componentlist$/;"	s
+textwidth	menu.h	/^     unsigned short CurrentPosition,textwidth,spacing,LastPopupId,vPosition,$/;"	m	class:Popup
+title_flag	winobject.h	/^  short title_flag;$/;"	m	class:Window
+top	pr.h	/^		  int left,top,right,bottom;$/;"	m	class:Rect
+true	constants.h	19;"	d
+type	guiout.h	/^       unsigned type,A,B,C,D;$/;"	m	struct:smt
+type	processinput.h	/^     short type;$/;"	m	struct:__anon9
+type	request.h	/^          unsigned type,A,B,C,D;$/;"	m	struct:smt
+type	table.h	/^   short  type ;$/;"	m	struct:FieldDescriptor
+type	winobject.h	/^  unsigned type;$/;"	m	class:Win_Objects
+units	table.h	/^  int barh,barw,units ;$/;"	m	class:TableEditor
+update_report	winobject.h	/^  short display_flag, move_flag, update_report;$/;"	m	class:Window
+vNumber	menu.h	/^     vNumber;$/;"	m	class:Popup
+vPosition	menu.h	/^     unsigned short CurrentPosition,textwidth,spacing,LastPopupId,vPosition,$/;"	m	class:Popup
+value	processinput.h	/^     short value;$/;"	m	struct:__anon9
+vbuf	vgagl.h	/^	char *vbuf;		\/* address of framebuffer *\/$/;"	m	struct:__anon13
+vflag	pr.h	/^		  bool vflag;$/;"	m	class:PRect
+vga_modeinfo	vga.h	/^    } vga_modeinfo;$/;"	t	typeref:struct:__anon16
+vgc	winobject.h	/^  GraphicsContext *vgc, *cgc;$/;"	m	class:Canvas
+vpos	table.h	/^  int CellPosition, chpos, vpos ;$/;"	m	class:TableEditor
+wBuffer	winobject.cpp	/^static int wBuffer[4*MAX_WINDOWS];$/;"	v	file:
+width	vga.h	/^	int width;$/;"	m	struct:__anon16
+width	vgagl.h	/^	int width;		\/* width in pixels *\/$/;"	m	struct:__anon13
+wr	winobject.h	/^  WRect wr;$/;"	m	class:Window
+yofs	font_bdf.h	/^  int yofs,fh,oy;$/;"	m	struct:fontinfo_tag
+z	guiprocess.cpp	/^int z;$/;"	v
+~MenuBar	menu.h	/^    virtual ~MenuBar(){$/;"	f	class:MenuBar
+~PRect	pr.c	/^PRect::~PRect(){$/;"	f	class:PRect
+~Popup	menu.cpp	/^Popup::~Popup(){$/;"	f	class:Popup
+~ScrollableCanvas	winobject.h	/^  virtual ~ScrollableCanvas(){$/;"	f	class:ScrollableCanvas
+~SuperStructure	winobject.cpp	/^SuperStructure::~SuperStructure()$/;"	f	class:SuperStructure
+~WRect	wpr.h	/^   virtual ~WRect(){};$/;"	f	class:WRect
+~Win_Objects	winobject.cpp	/^Win_Objects::~Win_Objects(){$/;"	f	class:Win_Objects
+~Window	winobject.cpp	/^Window::~Window(){$/;"	f	class:Window
+~WindowArea	winarea.cpp	/^WindowArea::~WindowArea(){$/;"	f	class:WindowArea

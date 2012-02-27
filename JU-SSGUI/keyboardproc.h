@@ -1,0 +1,42 @@
+#ifndef KEYBOARDPROC_H
+#define KEYBOARDPROC_H
+#include "processinput.h"
+#define SS_NORMAL 0
+#define SS_KEYPAD 2
+#define SS_CONTROL 1
+#define SS_CURSORBLOCK 3
+#define SS_CURSOR SS_CURSORBLOCK
+#define SS_UNKNOWN 4
+#define SS_KEYBOARDSTATEKEY 5
+#define SS_ALTKEY 0x1F0
+#define SS_CTRLKEY 0x10F
+#define SS_INSERT  KEY_INSERT
+#define SS_INSERT_ALT KEY_INSERT
+#define SS_DELETE KEY_DELETE
+#define SS_CURSORRIGHT KEY_ARROWRIGHT
+#define SS_CURSORLEFT KEY_ARROWLEFT
+#define SS_CURSORDOWN KEY_ARROWDOWN
+#define SS_CURSORUP KEY_ARROWUP 
+#define SS_ENTER KEY_ENTER
+#define SS_END KEY_END
+#define SS_HOME KEY_HOME
+#define SS_ESCAPE KEY_ESCAPE
+#define SS_PAGEUP KEY_PAGEUP
+#define SS_PAGEDOWN KEY_PAGEDOWN
+#define SS_BACKSPACE KEY_BACKSPACE
+#define SS_F1 KEY_F1
+#define SS_F2 KEY_F2
+#define SS_F3 KEY_F3
+#define SS_F4 KEY_F4
+#define SS_F5 KEY_F5
+#define SS_F6 KEY_F6
+#define SS_F7 KEY_F7
+#define SS_F8 KEY_F8
+#define SS_F9 KEY_F9
+#define SS_F10 KEY_F10
+#define SS_F11 KEY_F11
+#define SS_F12 KEY_F12
+# define SS_TAB KEY_TAB
+#endif
+
+

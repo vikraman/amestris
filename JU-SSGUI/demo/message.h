@@ -1,0 +1,35 @@
+#ifndef MESSAGE_H
+ #define MESSAGE_H
+  #include "constants.h"
+  #define INPUT_IDLE 717
+  #define KEYBOARD_EVENT 728
+  #define SYSTEM_EVENT 736
+  #define REQUEST_EVENT 719
+  #define FOCUS_EVENT 706
+  #define NULL_EVENT 0
+  #define SS_SYSTEM_EVENT SYSTEM_EVENT
+			    
+  #define SS_WINDOWDESTROY  81 
+  #define SS_WINDOWUPDATE 82
+  #define SS_WINDOWSHOW   83
+  #define SS_DESTROYWINDOW SS_WINDOWDESTROY 
+  #define SS_UPDATEWINDOW SS_WINDOWUPDATE
+  #define SS_WINDOWDEACTIVATE 84
+  #define SS_WINDOWACTIVATE 85
+  #define SS_SHOWWINDOW SS_WINDOWSHOW
+  #define SS_COMPONENT_USED 110
+  #define SS_EDITBOX_DONE 110 
+  #define SS_GAINFOCUS 111
+  #define SS_LOSEFOCUS 112
+  
+  #define SS_SYSTEM_BUSY 700
+  #define SS_SUCCESS 701
+  #define SS_FAILURE 0
+  #define SS_FEEDBACK  703
+  #define SS_INPUT  704
+  #define SS_SHUT_DOWN 705
+    
+
+#endif
+ 
+

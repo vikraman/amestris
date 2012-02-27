@@ -1,0 +1,3 @@
+ipcrm msg `ipcs | tail -n3 | cut -d ' ' -f 2 |head -n1`
+ipcrm msg `ipcs | tail -n2 | cut -d ' ' -f 2 |head -n1`
+
