@@ -66,7 +66,7 @@ short Create_Button(unsigned id,unsigned pid,
      There're issues with this  ... the callback (i.e onClicked()) is being called only once.
      Any further call is blocked. Fix this.
     */
-    QObject::connect((QObject *)widget, SIGNAL(clicked()), (QObject *)button, SLOT(onClicked()), 			      Qt::DirectConnection);
+    QObject::connect((QObject *)widget, SIGNAL(clicked()), (QObject *)button, SLOT(onClicked()), Qt::DirectConnection);
 
     widget->resize(w, h);
     widget->move(x, y);
