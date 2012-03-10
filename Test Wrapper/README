@@ -1,0 +1,3 @@
+To Compile : qmake && make
+
+TODO : There is an issue in line 69 in ss_gui.cpp. Fix it
