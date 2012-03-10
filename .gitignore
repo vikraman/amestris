@@ -2,8 +2,10 @@ virt
 *~
 *.orig
 *.o
-HelloQt/*.pro
-HelloQt/ui_*
-HelloQt/moc_*
+*.pro
+ui_*
+moc_*
 HelloQt/HelloQt
 HelloQt/Makefile
+Test\ Wrapper/Test
+Test\ Wrapper/Makefile
