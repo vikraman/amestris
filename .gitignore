@@ -1,0 +1,9 @@
+virt
+*~
+*.orig
+*.o
+HelloQt/*.pro
+HelloQt/ui_*
+HelloQt/moc_*
+HelloQt/HelloQt
+HelloQt/Makefile
