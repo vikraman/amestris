@@ -26,7 +26,7 @@ public:
     QPushButton *getWidget() {return button;}
 
 private slots:
-   int onClicked();
+   void onClicked();
 
 private:
     QPushButton *button;
@@ -57,6 +57,6 @@ int Set_Text_EditBox(unsigned id,unsigned pid,
                      unsigned short procid, char *text);
 
 int Get_Text(unsigned id, unsigned pid,
-             unsigned short procid, char *buffer);
+             unsigned short procid, char **buffer);
 
 #endif // SS_GUI_H

@@ -11,14 +11,13 @@ Window *win = new Window; //here we're dealing with only 1 parent window for tes
 
 EditBox *box= new EditBox[2];  //1 for input & 1 for output
 
-int Button::onClicked() {
+void Button::onClicked() {
     
     char *text;
-    Get_Text(0, 1, 0, text);
+    Get_Text(0, 1, 0, &text);
     std::cout << "hello" << std::endl;
     std::cout << text << std::endl;
     Set_Text_EditBox(1, 1, 0, text);
-    return 1;
 }
 
 int Create_Window(unsigned id, unsigned pid,
@@ -75,12 +74,12 @@ short Create_Button(unsigned id,unsigned pid,
 }
 
 int Get_Text(unsigned id, unsigned pid,
-             unsigned short procid, char *buffer)
+             unsigned short procid, char **buffer)
 {
     QString str = box[id].editBox->text();  //every time the trio <procid>:<pid>:<id> will give a unique widget
-    buffer = new char[str.length() + 1];
-    strcpy(buffer, str.toStdString().c_str());
-    std::cout << buffer << std::endl;
+    *buffer = new char[str.length() + 1];
+    strcpy(*buffer, str.toStdString().c_str());
+    std::cout << *buffer << std::endl;
     return 0;
 }
 
