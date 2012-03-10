@@ -1,21 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <unistd.h>
-#include <sys/ioctl.h>
-#include <sys/stat.h>
-#include <fcntl.h>
 #include <error.h>
 #include <errno.h>
+#include <fcntl.h>
+#include <netdb.h>
+#include <unistd.h>
+#include <pthread.h>
+#include <arpa/inet.h>
+#include <sys/ioctl.h>
+#include <sys/stat.h>
+#include <sys/socket.h>
+#include <sys/select.h>
 #include <linux/input.h>
 #include <linux/uinput.h>
-#include <sys/select.h>
-#include <sys/socket.h>
-#include <arpa/inet.h>
-#include <netdb.h>
-#include <pthread.h>
-
-/* TODO fix redundant includes */
 
 /* because Pi */
 #define PORT 31415
