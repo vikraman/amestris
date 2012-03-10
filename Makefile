@@ -1,10 +1,7 @@
 CC=gcc
-CFLAGS=-O2 -Wall -Wextra -s -pipe
+CFLAGS=-Wall -Wextra -s -pipe -lpthread
 
-all: virt_kbd virt_mouse start
-
-start:
-	chmod +x start.sh
+all: virt
 
 clean:
-	rm -f virt_kbd virt_mouse
+	rm -f virt
