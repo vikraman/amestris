@@ -15,12 +15,11 @@
 #include <linux/input.h>
 #include <linux/uinput.h>
 
-/* because Pi */
-#define PORT 31415
-char peer[INET_ADDRSTRLEN];
-#define MAX 50
+#include "helpers.h"
+#include "defs.h"
+#include "qws.h"
 
-char * qws_server = "/home/vh4x0r/devel/amestris/HelloQt/HelloQt";
+char peer[INET_ADDRSTRLEN];
 
 void * init_server (void * sfd);
 void * init_client (void * cfd);
@@ -34,20 +33,15 @@ int main (int argc, char ** argv)
     struct input_event ev;
     struct uinput_user_dev uidev;
     pthread_t serv_thread, cli_thread;
-    char kbd_devname[MAX], mouse_devname[MAX], uinput_devname[MAX];
-    FILE * fp;
+    char kbd_devname[MAX], mouse_devname[MAX], virt_devname[MAX];
 
     /*  TODO necessary ? */
     kfd = mfd = ufd = cfd = sfd = -1;
 
-    fp = popen("get_devices.sh keyboard", "r");
-    fscanf(fp, "%s", kbd_devname);
-    pclose(fp);
+    pipexec("get_devices.sh keyboard", kbd_devname);
     puts(kbd_devname);
 
-    fp = popen("get_devices.sh Mouse", "r");
-    fscanf(fp, "%s", mouse_devname);
-    pclose(fp);
+    pipexec("get_devices.sh mouse", mouse_devname);
     puts(mouse_devname);
 
     if (-1 == (kfd = open (kbd_devname, O_RDONLY)))
@@ -97,37 +91,15 @@ int main (int argc, char ** argv)
 
     /* since udev runs async */
     /* TODO udevadm trigger */
-    sleep (20);
+    sleep (5);
     puts("All init done");
 
-    fp = popen("get_devices.sh virt", "r");
-    uinput_devname[0] = '\0';
-    fscanf(fp, "%s", uinput_devname);
-    pclose(fp);
-    puts(uinput_devname);
+    pipexec("get_devices.sh virt", virt_devname);
+    puts(virt_devname);
 
-
-    char * const qws_argv[] = {qws_server, "-qws", NULL};
-    char qws_envp_kbd[80], qws_envp_mouse[80];
-    strcpy(qws_envp_kbd, "QWS_KEYBOARD=LinuxInput:");
-    strcat(qws_envp_kbd, uinput_devname);
-    strcpy(qws_envp_mouse, "QWS_MOUSE_PROTO=LinuxInput:");
-    strcat(qws_envp_mouse, uinput_devname);
-    char * const qws_envp[] = {qws_envp_kbd, qws_envp_mouse};
-
-    char cmd[80];
-    strcpy(cmd, "sudo chmod 666 ");
-    strcat(cmd, kbd_devname);
-    system(cmd);
-    strcpy(cmd, "sudo chmod 666 ");
-    strcat(cmd, mouse_devname);
-    system(cmd);
-    strcpy(cmd, "sudo chmod 666 ");
-    strcat(cmd, uinput_devname);
-    system(cmd);
-
+    /* start qws here */
     if (!fork())
-        execve(qws_server, qws_argv, qws_envp);
+        launch_qws(virt_devname);
 
     while (1)
         {

@@ -4,6 +4,7 @@ test_execve
 *.orig
 *.o
 *.pro
+*.swp
 ui_*
 moc_*
 HelloQt/HelloQt
