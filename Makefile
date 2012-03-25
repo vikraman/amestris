@@ -1,7 +1,12 @@
 CC=gcc
-CFLAGS=-Wall -Wextra -s -pipe -lpthread
+CFLAGS=-Wall -Wextra -s -pipe
 
 all: virt
 
+virt: CFLAGS += -lpthread
+virt: virt.c qws.c helpers.c
+
+test: test_execve
+
 clean:
-	rm -f virt
+	rm -f virt *.o
