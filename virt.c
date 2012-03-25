@@ -19,6 +19,8 @@
 #define PORT 31415
 #define PEER "192.168.2.10"
 
+#define MAX 50
+
 void * init_server (void * sfd);
 void * init_client (void * cfd);
 
@@ -29,22 +31,25 @@ int main (int argc, char ** argv)
     struct input_event ev;
     struct uinput_user_dev uidev;
     pthread_t serv_thread, cli_thread;
+    char kbd_devname[MAX], mouse_devname[MAX], uinput_devname[MAX];
+    FILE * fp;
 
     /*  TODO necessary ? */
     kfd = mfd = ufd = cfd = sfd = -1;
 
-    /* TODO autodetect from dev name ? */
-    if (argc != 4)
-        {
-            puts ("Need keyboard, mouse and uinput device nodes");
-            exit (EXIT_FAILURE);
-        }
+    fp = popen("get_devices.sh keyboard", "r");
+    fscanf(fp, "%s", kbd_devname);
+    pclose(fp);
 
-    if (-1 == (kfd = open (argv[1], O_RDONLY)))
+    fp = popen("get_devices.sh Mouse", "r");
+    fscanf(fp, "%s", mouse_devname);
+    pclose(fp);
+
+    if (-1 == (kfd = open (kbd_devname, O_RDONLY)))
         error (EXIT_FAILURE, errno, "Can't open keyboard");
-    if (-1 == (mfd = open (argv[2], O_RDONLY)))
+    if (-1 == (mfd = open (mouse_devname, O_RDONLY)))
         error (EXIT_FAILURE, errno, "Can't open mouse");
-    if (-1 == (ufd = open (argv[3], O_WRONLY)))
+    if (-1 == (ufd = open ("/dev/uinput", O_WRONLY)))
         error (EXIT_FAILURE, errno, "Can't open virtual device");
 
     /* begin dirty socket work */
@@ -85,9 +90,19 @@ int main (int argc, char ** argv)
     /* TODO udevadm trigger */
     sleep (5);
 
+    fp = popen("get_devices.sh virt", "r");
+    fscanf(fp, "%s", uinput_devname);
+    pclose(fp);
+
     /* TODO should I wait this late ? */
     pthread_join (cli_thread, NULL);
     pthread_join (serv_thread, NULL);
+
+    printf("%s", uinput_devname);
+
+    sleep(300);
+
+    goto end;
 
     while (1)
         {
@@ -140,6 +155,8 @@ int main (int argc, char ** argv)
                     FD_SET (sfd, &wfds);
                 }
         }
+
+end:
 
     /* kill the bad guys */
     ioctl (ufd, UI_DEV_DESTROY);
