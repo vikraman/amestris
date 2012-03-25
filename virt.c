@@ -40,11 +40,11 @@ int main (int argc, char ** argv)
             exit (EXIT_FAILURE);
         }
 
-    if (-1 == (kfd = open (argv[1], O_WRONLY)))
+    if (-1 == (kfd = open (argv[1], O_RDONLY)))
         error (EXIT_FAILURE, errno, "Can't open keyboard");
     if (-1 == (mfd = open (argv[2], O_RDONLY)))
         error (EXIT_FAILURE, errno, "Can't open mouse");
-    if (-1 == (ufd = open (argv[3], O_RDONLY)))
+    if (-1 == (ufd = open (argv[3], O_WRONLY)))
         error (EXIT_FAILURE, errno, "Can't open virtual device");
 
     /* begin dirty socket work */
