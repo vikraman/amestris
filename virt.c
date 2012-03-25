@@ -146,10 +146,6 @@ int main (int argc, char ** argv)
                     while (! (FD_ISSET (ufd, &wfds)));
                     write (ufd, &ev, sizeof (struct input_event));
                     FD_SET (ufd, &wfds);
-                    /* TODO could this block ? */
-                    while (! (FD_ISSET (sfd, &wfds)));
-                    write (sfd, &ev, sizeof (struct input_event));
-                    FD_SET (sfd, &wfds);
                 }
         }
 
