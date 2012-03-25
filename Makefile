@@ -9,4 +9,4 @@ virt: virt.c qws.c helpers.c
 test: test_execve
 
 clean:
-	rm -f virt *.o
+	rm -f virt test_execve *.o
