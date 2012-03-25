@@ -14,5 +14,6 @@ char * pipexec(char * command, char * output)
     FILE * fp = popen(command, "r");
     if (output)
         fscanf(fp, "%s", output);
+    pclose(fp);
     return output;
 }
