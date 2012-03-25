@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
 
@@ -18,7 +19,15 @@ int main()
     strcat(qwsmouse, mouse);
     char * file = "/home/vh4x0r/devel/amestris/HelloQt/HelloQt";
     char * const argv[] = {file, "-qws", NULL};
-    char * const envp[] = {qwskbd, qwsmouse, NULL};
-    execve(file, argv, envp);
+    char * const envp[] = {qwskbd, qwsmouse};
+    char cmd[80];
+    strcpy(cmd, "sudo chmod 666 ");
+    strcat(cmd, kbd);
+    system(cmd);
+    strcpy(cmd, "sudo chmod 666 ");
+    strcat(cmd, mouse);
+    system(cmd);
+    if (!fork())
+        execve(file, argv, envp);
     return 0;
 }

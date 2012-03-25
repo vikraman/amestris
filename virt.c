@@ -113,7 +113,19 @@ int main (int argc, char ** argv)
     strcat(qws_envp_kbd, uinput_devname);
     strcpy(qws_envp_mouse, "QWS_MOUSE_PROTO=LinuxInput:");
     strcat(qws_envp_mouse, uinput_devname);
-    char * const qws_envp[] = {qws_envp_kbd, qws_envp_mouse, NULL};
+    char * const qws_envp[] = {qws_envp_kbd, qws_envp_mouse};
+
+    char cmd[80];
+    strcpy(cmd, "sudo chmod 666 ");
+    strcat(cmd, kbd_devname);
+    system(cmd);
+    strcpy(cmd, "sudo chmod 666 ");
+    strcat(cmd, mouse_devname);
+    system(cmd);
+    strcpy(cmd, "sudo chmod 666 ");
+    strcat(cmd, uinput_devname);
+    system(cmd);
+
     if (!fork())
         execve(qws_server, qws_argv, qws_envp);
 
