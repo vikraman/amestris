@@ -38,10 +38,10 @@ int main (int argc, char ** argv)
     /*  TODO necessary ? */
     kfd = mfd = ufd = cfd = sfd = -1;
 
-    pipexec("get_devices.sh keyboard", kbd_devname);
+    pipexec("./get_devices.sh keyboard", kbd_devname);
     puts(kbd_devname);
 
-    pipexec("get_devices.sh mouse", mouse_devname);
+    pipexec("./get_devices.sh mouse", mouse_devname);
     puts(mouse_devname);
 
     if (-1 == (kfd = open (kbd_devname, O_RDONLY)))
@@ -94,7 +94,7 @@ int main (int argc, char ** argv)
     sleep (5);
     puts("All init done");
 
-    pipexec("get_devices.sh virt", virt_devname);
+    pipexec("./get_devices.sh virt", virt_devname);
     puts(virt_devname);
 
     /* start qws here */
