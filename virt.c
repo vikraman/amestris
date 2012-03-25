@@ -17,8 +17,7 @@
 
 /* because Pi */
 #define PORT 31415
-#define PEER "192.168.2.10"
-
+char peer[INET_ADDRSTRLEN];
 #define MAX 50
 
 void * init_server (void * sfd);
@@ -26,6 +25,8 @@ void * init_client (void * cfd);
 
 int main (int argc, char ** argv)
 {
+    if (argc != 2) return 1;
+    strcpy(peer, argv[1]);
     int i, kfd, mfd, ufd, cfd, sfd;
     fd_set rfds, wfds;
     struct input_event ev;
@@ -40,10 +41,12 @@ int main (int argc, char ** argv)
     fp = popen("get_devices.sh keyboard", "r");
     fscanf(fp, "%s", kbd_devname);
     pclose(fp);
+    puts(kbd_devname);
 
     fp = popen("get_devices.sh Mouse", "r");
     fscanf(fp, "%s", mouse_devname);
     pclose(fp);
+    puts(mouse_devname);
 
     if (-1 == (kfd = open (kbd_devname, O_RDONLY)))
         error (EXIT_FAILURE, errno, "Can't open keyboard");
@@ -86,21 +89,23 @@ int main (int argc, char ** argv)
     /* create device */
     ioctl (ufd, UI_DEV_CREATE);
 
-    /* since udev runs async */
-    /* TODO udevadm trigger */
-    sleep (5);
-
-    fp = popen("get_devices.sh virt", "r");
-    fscanf(fp, "%s", uinput_devname);
-    pclose(fp);
-
     /* TODO should I wait this late ? */
     pthread_join (cli_thread, NULL);
     pthread_join (serv_thread, NULL);
 
-    printf("%s", uinput_devname);
+    /* since udev runs async */
+    /* TODO udevadm trigger */
+    sleep (20);
+    puts("All init done");
 
-    sleep(300);
+    fp = popen("get_devices.sh virt", "r");
+    uinput_devname[0] = '\0';
+    fscanf(fp, "%s", uinput_devname);
+    pclose(fp);
+    puts(uinput_devname);
+
+    puts("Sleeping for 10s");
+    sleep(10);
 
     goto end;
 
@@ -206,7 +211,7 @@ void * init_client (void * p_cfd)
 
     saddr.sin_family = AF_INET;
     saddr.sin_port = PORT;
-    saddr.sin_addr.s_addr = inet_addr (PEER);
+    saddr.sin_addr.s_addr = inet_addr (peer);
 
     /* TODO test this, need sleep ? */
     while (-1 == connect (*cfd, (struct sockaddr*) &saddr, sizeof (struct sockaddr)));
