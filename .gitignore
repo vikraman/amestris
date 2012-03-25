@@ -1,4 +1,5 @@
 virt
+test_execve
 *~
 *.orig
 *.o

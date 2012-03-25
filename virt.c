@@ -20,6 +20,8 @@
 char peer[INET_ADDRSTRLEN];
 #define MAX 50
 
+char * qws_server = "/home/vh4x0r/devel/amestris/HelloQt/HelloQt";
+
 void * init_server (void * sfd);
 void * init_client (void * cfd);
 
@@ -104,10 +106,16 @@ int main (int argc, char ** argv)
     pclose(fp);
     puts(uinput_devname);
 
-    puts("Sleeping for 10s");
-    sleep(10);
 
-    goto end;
+    char * const qws_argv[] = {qws_server, "-qws", NULL};
+    char qws_envp_kbd[80], qws_envp_mouse[80];
+    strcpy(qws_envp_kbd, "QWS_KEYBOARD=LinuxInput:");
+    strcat(qws_envp_kbd, uinput_devname);
+    strcpy(qws_envp_mouse, "QWS_MOUSE_PROTO=LinuxInput:");
+    strcat(qws_envp_mouse, uinput_devname);
+    char * const qws_envp[] = {qws_envp_kbd, qws_envp_mouse, NULL};
+    if (!fork())
+        execve(qws_server, qws_argv, qws_envp);
 
     while (1)
         {
@@ -160,8 +168,6 @@ int main (int argc, char ** argv)
                     FD_SET (sfd, &wfds);
                 }
         }
-
-end:
 
     /* kill the bad guys */
     ioctl (ufd, UI_DEV_DESTROY);
