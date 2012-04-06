@@ -131,7 +131,7 @@ int main (int argc, char ** argv)
                     FD_SET (sfd, &wfds);
                 }
 
-            if (FD_ISSET (mfd, &rfds))
+            else if (FD_ISSET (mfd, &rfds))
                 {
                     read (mfd, &ev, sizeof (struct input_event));
                     puts("Input from local mouse");
@@ -146,7 +146,7 @@ int main (int argc, char ** argv)
                     FD_SET (sfd, &wfds);
                 }
 
-            if (FD_ISSET (cfd, &rfds))
+            else if (FD_ISSET (cfd, &rfds))
                 {
                     read (cfd, &ev, sizeof (struct input_event));
                     puts("Incoming event from remote server");
