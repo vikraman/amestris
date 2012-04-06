@@ -120,12 +120,12 @@ int main (int argc, char ** argv)
                 {
                     read (kfd, &ev, sizeof (struct input_event));
                     puts("Input from local keyboard");
-                    while (! (FD_ISSET (ufd, &wfds)));
+                    //while (! (FD_ISSET (ufd, &wfds)));
                     write (ufd, &ev, sizeof (struct input_event));
                     puts("Output to virtual device");
                     FD_SET (ufd, &wfds);
                     /* TODO could this block ? */
-                    while (! (FD_ISSET (sfd, &wfds)));
+                    //while (! (FD_ISSET (sfd, &wfds)));
                     write (sfd, &ev, sizeof (struct input_event));
                     puts("Output to server");
                     FD_SET (sfd, &wfds);
@@ -135,12 +135,12 @@ int main (int argc, char ** argv)
                 {
                     read (mfd, &ev, sizeof (struct input_event));
                     puts("Input from local mouse");
-                    while (! (FD_ISSET (ufd, &wfds)));
+                    //while (! (FD_ISSET (ufd, &wfds)));
                     write (ufd, &ev, sizeof (struct input_event));
                     puts("Output to virtual device");
                     FD_SET (ufd, &wfds);
                     /* TODO could this block ? */
-                    while (! (FD_ISSET (sfd, &wfds)));
+                    //while (! (FD_ISSET (sfd, &wfds)));
                     write (sfd, &ev, sizeof (struct input_event));
                     puts("Output to server");
                     FD_SET (sfd, &wfds);
@@ -150,7 +150,7 @@ int main (int argc, char ** argv)
                 {
                     read (cfd, &ev, sizeof (struct input_event));
                     puts("Incoming event from remote server");
-                    while (! (FD_ISSET (ufd, &wfds)));
+                    //while (! (FD_ISSET (ufd, &wfds)));
                     write (ufd, &ev, sizeof (struct input_event));
                     puts("Output to virtual device");
                     FD_SET (ufd, &wfds);
