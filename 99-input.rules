@@ -1,2 +1,2 @@
-KERNEL=="event*", NAME="input/%k", GROUP="input"
+KERNEL=="event*", NAME="input/%k", MODE="660", GROUP="input"
 KERNEL=="uinput", MODE="660", GROUP="input"
