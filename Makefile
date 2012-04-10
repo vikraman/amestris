@@ -1,5 +1,6 @@
 CC=gcc
 CFLAGS=-Wall -Wextra -s -pipe
+CFLAGS+=-m32
 
 all: virt
 
