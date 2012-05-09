@@ -28,7 +28,7 @@ int main (int argc, char ** argv)
 {
     if (argc != 2) return 1;
     strcpy(peer, argv[1]);
-    int i, kfd, mfd, ufd, cfd, sfd;
+    int i, kfd, mfd, ufd, cfd, sfd, fd_max;
     fd_set rfds, wfds;
     struct input_event ev;
     struct uinput_user_dev uidev;
@@ -114,7 +114,14 @@ int main (int argc, char ** argv)
             FD_SET (sfd, &wfds);
             FD_SET (ufd, &wfds);
 
-            select (FD_SETSIZE, &rfds, &wfds, NULL, NULL);
+            /* calculate maximum socket value */
+            fd_max = kfd;
+            if (fd_max < mfd) fd_max = mfd;
+            if (fd_max < ufd) fd_max = ufd;
+            if (fd_max < cfd) fd_max = cfd;
+            if (fd_max < sfd) fd_max = sfd;
+
+            select (fd_max + 1, &rfds, &wfds, NULL, NULL);
 
             if (FD_ISSET (kfd, &rfds))
                 {
