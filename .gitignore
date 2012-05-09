@@ -4,6 +4,7 @@ test_*
 *.orig
 *.o
 *.pro
+*.pdf
 *.swp
 ui_*
 moc_*
