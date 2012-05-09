@@ -3,6 +3,7 @@
 #include "helpers.h"
 #include <unistd.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 void launch_qws(char * virt_devname)
 {
