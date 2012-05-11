@@ -2,91 +2,155 @@
 #include <QtGui/QLineEdit>
 #include <QtGui/QPushButton>
 #include <string>
+#include <cstdlib>
 #include <iostream>
 #include <QObject>
 #include "ss_gui.h"
 
-Window *win = new Window; //here we're dealing with only 1 parent window for testing purpose.
-			  // so instead of using the id (unique window id) we're using this global var
+using namespace std;
 
-EditBox *box= new EditBox[2];  //1 for input & 1 for output
-
-void Button::onClicked() {
+void Widget::onClicked() {
     
     char *text;
-    Get_Text(0, 1, 0, &text);
-    std::cout << "hello" << std::endl;
+    Get_Text(0, 0, 0, &text);
     std::cout << text << std::endl;
-    Set_Text_EditBox(1, 1, 0, text);
+    Set_Text_EditBox(0, 0, 2, text);
 }
+
+/*
+ *  global process list declaration
+ */
+
+ProcessList processList;
 
 int Create_Window(unsigned id, unsigned pid,
                   unsigned short procid,int x,
                   int y, int w, int h, int stat)
 {
-    win->window = new QWidget();
-    win->window->resize(w, h);
-    win->window->move(x, y);
-    win->id = id;
+    if (!processList.count(procid))
+        processList[procid] = *(new WindowList);
+
+    if (processList[procid].count(id))
+        return -1;    // window already exists
+
+    QWidget *parent;
+    if (pid) {
+        if (!processList[procid].count(pid))
+            return -1;    // parent doesn't exist
+        else
+            parent = processList[procid][pid].first;
+    }
+
+    QWidget *window;
+    window = pid ? new QWidget(parent) : new QWidget();
+    window->resize(w, h);
+    window->move(x, y);
+    window->setWindowTitle("window");
+    WidgetList newWidgetList = *(new WidgetList);
+    processList[procid][id] = make_pair(window, newWidgetList);
     return 0;
 }
 
 void Show_Window(unsigned id, unsigned short procid)
 {
-    win->window->show();
+    processList[procid][id].first->show();
+    return;
+}
+
+void Hide_Window(unsigned id, unsigned short procid)
+{
+    processList[procid][id].first->hide();
+    return;
 }
 
 void Set_Window_Title(unsigned id, unsigned pid,
                       unsigned short procid, char *text)
 {
-    win->window->setWindowTitle(text);
+    processList[procid][id].first->setWindowTitle(text);
+    return;
 }
 
 int Create_EditBox(unsigned id,unsigned pid,
                    unsigned short procid,int x,
                    int y,int w,int h)
 {
-    box[id].editBox = new QLineEdit(win->window); //here the searching will be done based on the param "pid"
-    box[id].editBox->resize(w, h);
-    box[id].editBox->move(x, y);
-    box[id].editBox->show();
-    box[id].id = id;
-}
+    if (!processList.count(procid))
+        return -1;    // process doesn't exist
 
-short Create_Button(unsigned id,unsigned pid,
-                    unsigned short procid,int x,
-                    int y, int w, int h, char *text)
-{
-    Button *button = new Button();
-    QPushButton *widget = button->getWidget();
-    widget = new QPushButton(win->window); //here the searching will be done based on the param "pid"
+    if (!processList[procid].count(pid))
+        return -1;    // parent window doesn't exist
 
-    /* 
-     There're issues with this  ... the callback (i.e onClicked()) is being called only once.
-     Any further call is blocked. Fix this.
-    */
-    QObject::connect((QObject *)widget, SIGNAL(clicked()), (QObject *)button, SLOT(onClicked()), Qt::DirectConnection);
+    if (processList[procid][pid].second.count(id))
+        return -1;    // widget id is already in use
 
-    widget->resize(w, h);
-    widget->move(x, y);
-    widget->setText(text);
-    widget->show();
-}
+    Widget widget = *(new Widget(NULL));
+    widget.type = LineEdit;
+    widget.widget = (QWidget *) new QLineEdit(processList[procid][pid].first);
+    widget.widget->resize(w, h);
+    widget.widget->move(x, y);
+    widget.widget->show();
 
-int Get_Text(unsigned id, unsigned pid,
-             unsigned short procid, char **buffer)
-{
-    QString str = box[id].editBox->text();  //every time the trio <procid>:<pid>:<id> will give a unique widget
-    *buffer = new char[str.length() + 1];
-    strcpy(*buffer, str.toStdString().c_str());
-    std::cout << *buffer << std::endl;
+    processList[procid][pid].second[id] = widget;
     return 0;
 }
 
 int Set_Text_EditBox(unsigned id,unsigned pid,
                      unsigned short procid, char *text)
 {
-    std::cout << text << std::endl;
-    box[id].editBox->setText(text);
+    if (!processList.count(procid))
+        return -1;    // process doesn't exist
+
+    if (!processList[procid].count(pid))
+        return -1;    // parent window doesn't exist
+
+    if (!processList[procid][pid].second.count(id))
+        return -1;    // widget doesn't exist
+
+    ((QLineEdit *)(processList[procid][pid].second[id].widget))->setText(text);
+    return 0;
+}
+
+int Get_Text(unsigned id, unsigned pid,
+             unsigned short procid, char **buffer)
+{
+    if (!processList.count(procid))
+        return -1;    // process doesn't exist
+
+    if (!processList[procid].count(pid))
+        return -1;    // parent window doesn't exist
+
+    if (!processList[procid][pid].second.count(id))
+        return -1;    // widget doesn't exist
+
+    QString str = ((QLineEdit *)(processList[procid][pid].second[id].widget))->text();
+    *buffer = new char[str.length() + 1];
+    strcpy(*buffer, str.toStdString().c_str());
+    return 0;
+}
+
+short Create_Button(unsigned id,unsigned pid,
+                    unsigned short procid,int x,
+                    int y, int w, int h, char *text)
+{
+    if (!processList.count(procid))
+        return -1;    // process doesn't exist
+
+    if (!processList[procid].count(pid))
+        return -1;    // parent window doesn't exist
+
+    if (processList[procid][pid].second.count(id))
+        return -1;    // widget id is already in use
+
+    Widget *widget = new Widget(NULL);
+    widget->type = PushButton;
+    widget->widget = (QWidget *) new QPushButton(processList[procid][pid].first);
+    widget->widget->resize(w, h);
+    widget->widget->move(x, y);
+    ((QPushButton *)(widget->widget))->setText(text);
+    widget->widget->show();
+
+    QObject::connect((QObject *)widget->widget, SIGNAL(clicked()), (QObject *)widget, SLOT(onClicked()), Qt::DirectConnection);
+
+    processList[procid][pid].second[id] = *widget;
     return 0;
 }
