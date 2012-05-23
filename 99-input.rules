@@ -1,2 +1,6 @@
+
+# Write access to group input for all event devices
 KERNEL=="event*", NAME="input/%k", MODE="660", GROUP="input"
+
+# Write access to group input for uinput device
 KERNEL=="uinput", MODE="660", GROUP="input"
